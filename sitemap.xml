@@ -2,10 +2,14 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://kwangbkim.github.com/archives/</loc>
-        <lastmod>2012-07-18T17:42:36-04:00</lastmod>
+        <lastmod>2012-07-18T17:53:25-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://kwangbkim.github.com/blog/archives/</loc>
+        <lastmod>2012-07-18T17:53:25-04:00</lastmod>
     </url>
     <url>
         <loc>http://kwangbkim.github.com/</loc>
-        <lastmod>2012-07-18T17:42:36-04:00</lastmod>
+        <lastmod>2012-07-18T17:53:25-04:00</lastmod>
     </url>
 </urlset>
