@@ -3,9 +3,9 @@
 # ----------------------- #
 
 url: http://kwangbkim.github.com
-title: My Octopress Blog
+title: Kwang B. Kim
 subtitle: A blogging framework for hackers.
-author: Your Name
+author: Kwang B. Kim
 simple_search: http://google.com/search
 description:
 
@@ -58,18 +58,18 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: kwangbkim
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: kwang_b_kim
 twitter_tweet_count: 4
 twitter_show_replies: false
-twitter_follow_button: true
+twitter_follow_button: false
 twitter_show_follower_count: false
-twitter_tweet_button: true
+twitter_tweet_button: false
 
 # Google +1
 google_plus_one: false
