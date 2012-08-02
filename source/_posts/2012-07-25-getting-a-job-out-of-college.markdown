@@ -13,7 +13,7 @@ My junior year I did an internship at a big corporate insurance company.  To be 
 
 I also didn't fit in well with the company culture.  For instance every Friday was hawaiian shirt day (queue office space references).  Perhaps it's petty to hate something so small but it's the principle that bothered me.  If I wore a hawaiian shirt it would be an admittance that I hate my job and would much rather be off on some remote island drinking a cocktail with a little umbrella in it.  I don't want to hate work nor was I longing for an early retirement.  Call me a stereotypical millennial but I wanted to work hard, hopefully doing something I liked.  
 
-Don't get me wrong, the company and people treated me great.  As an attempt to keep my options open I kept a line of communication with my old boss.  We spoke a bunch of times but it was clear I was better off looking elsewhere.  He was gracious enough to write me a great recommendation for the company I did end up working at.
+Don't get me wrong, the company and people treated me great.  As an attempt to keep my options open I kept a line of communication with my old boss.  We spoke a bunch of times but it was clear I was better off looking elsewhere.
 	
 ##Potential Suitors
 
@@ -54,4 +54,4 @@ If you find a good company with a good product, a good team and a good manager t
 
 ### Prepare, prepare, prepare
 
-Interviewing is not easy, especially if you're a software developer.  A developer interview can range anywhere from a couple hours of conversation, to written tests, to writing code on a whiteboard all day.  Go over your resume and make sure you have a good grasp of all the fundamentals of the languages you list.  Also, start practicing problems coding problems.  Do challenges like Google Code Jam or TopCoder if you can.
+Interviewing is not easy, especially if you're a software developer.  A developer interview can range anywhere from a couple hours of conversation, to written tests, to writing code on a whiteboard all day.  Go over your resume and make sure you have a good grasp of all the fundamentals of the languages you list.  Also, start practicing coding problems.  Do challenges like Google Code Jam or TopCoder if you can.

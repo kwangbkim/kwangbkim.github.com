@@ -4,9 +4,9 @@
 
 url: http://kwangbkim.github.com
 title: Kwang B. Kim
-subtitle: A blogging framework for hackers.
+subtitle: Software Developer
 author: Kwang B. Kim
-simple_search: http://google.com/search
+simple_search: 
 description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -16,8 +16,8 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
-subscribe_email:
+subscribe_rss: 
+subscribe_email: 
 # RSS feeds can list your email address if you like
 email:
 
