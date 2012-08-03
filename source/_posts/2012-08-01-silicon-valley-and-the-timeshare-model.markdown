@@ -14,6 +14,6 @@ There's nothing wrong when a business tries to make money.  But something seems 
 
 It's the same kind of idea with some of these tech companies.  They've attained users who've been attracted to their free service.  But now to monetize the business the focus changes from pleasing the users to pleasing the advertisers or sponsors.  It creates a sum zero relationship because it's near impossible to keep either happy without angering the other.  In the end the advertisers are the ones paying, so they are the ones who are catered to.  Meanwhile, users and third party developers slowly get more and more annoyed until a new free service comes along and everyone joins that and the business goes bust.  Presumably the process will repeat itself.  
 
-Granted, not all companies have problem with this model.  [StackExchange](http://www.stackexchange.com) offers an amazing product, is free and ad supported and is doing just fine thank you.  
+Granted, not all companies have problems with this model.  [StackExchange](http://www.stackexchange.com) offers an amazing product, is free and ad supported and is doing just fine thank you.  
 
 Going back to Twitter, I've subscribed to [App.Net](http://join.app.net), Dalton Caldwell's potential alternative.  Imagine the best of Twitter: clean, no ads, completely user focused, all for four bucks a month.  But it needs to raise $500k by August 14th and it doesn't seem like they're going to make it.  But we can all dream can't we?
