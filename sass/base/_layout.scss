@@ -14,9 +14,9 @@ $sidebar-width-wide: 300px !default;
 
 $indented-lists: false !default;
 
-$header-font-size: 1em !default;
-$header-padding-top: 1.5em !default;
-$header-padding-bottom: 1.5em !default;
+$header-font-size: .7em !default;
+$header-padding-top: 4.5em !default;
+$header-padding-bottom: 4.5em !default;
 
 .group { @include pie-clearfix; }
 
@@ -86,6 +86,7 @@ body {
     font-size: $header-font-size;
     padding-top: $header-padding-top;
     padding-bottom: $header-padding-bottom;
+	text-align: center;
   }
 }
 
