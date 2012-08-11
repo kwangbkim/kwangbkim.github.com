@@ -1,6 +1,5 @@
 body > footer {
-  @extend .sans;
-  font-size: .8em;
+  font-size: .9em;
   color: $footer-color;
   text-shadow: lighten($footer-bg, 5) 0 1px;
   background-color: $footer-bg;

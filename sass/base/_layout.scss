@@ -85,8 +85,8 @@ body {
   > header {
     font-size: $header-font-size;
     padding-top: $header-padding-top;
-    padding-bottom: $header-padding-bottom;
-	text-align: center;
+	padding-right:50em;
+	border-bottom:1px solid lightgray;
   }
 }
 
