@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Kwang B. Kim]]></title>
+  <link href="http://kwangbkim.github.com/atom.xml" rel="self"/>
+  <link href="http://kwangbkim.github.com/"/>
+  <updated>2012-08-11T22:03:16-04:00</updated>
+  <id>http://kwangbkim.github.com/</id>
+  <author>
+    <name><![CDATA[Kwang B. Kim]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Open Sourced Judging]]></title>
+    <link href="http://kwangbkim.github.com/blog/2012/08/10/open-source-judging/"/>
+    <updated>2012-08-10T20:18:00-04:00</updated>
+    <id>http://kwangbkim.github.com/blog/2012/08/10/open-source-judging</id>
+    <content type="html"><![CDATA[<p>As a Korean-American I&#8217;ve had the luxury to follow both countries in the current Olympics.  One particular story that jumped out was about Shin Lam, the South Korean fencer who was unfairly eliminated due to a clock malfunction.  Shin Lam only had to evade getting touched for one second in order to move on to the finals.  Unfortunately, time works in <a href="http://www.youtube.com/watch?v=G7QENF5Uf7k">mysterious ways</a>.</p>
+
+<p>I feel sorry for her.  But in retrospect, this latest calamity makes South Korea par for the course in judging mishaps, at best.  Anyone remember <a href="http://www.youtube.com/watch?v=cJYBV9BXQNY">Roy Jones Jr.</a>?</p>
+
+<p>Mistakes, misjudgment and mismanagement are all too common when judicial power is given to a select few.  The causes can vary from subjective bias, to incompetence, and at worst outright corruption.  It transcends not only sports like boxing and soccer, but also to organizational entities like governments.  Just ask the people living in Egypt, Syria, Tunisia or Libya.</p>
+
+<p>Back to fencing and judging.  Wouldn&#8217;t it be great if we treated judging like our open sourced software?  That is, a skilled and knowledgeable community working together, in the open for all to see.  I am pretty sure that more than six people exist in the world who can accurately score a fencing competition.  Why delegate such important decisions to a small group of people?</p>
+
+<p>I&#8217;m sure there would be tons of issues with this, specifically the logistics and time efficiency of making such decisions.  But with services like Twitter that provide instant feedback, here&#8217;s to hoping a new model can be developed so that athletes like Roy Jones Jr. and Shin Lam don&#8217;t put in four years of training to get screwed.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sum Zero Silicon Valley]]></title>
+    <link href="http://kwangbkim.github.com/blog/2012/08/01/silicon-valley-and-the-timeshare-model/"/>
+    <updated>2012-08-01T23:00:00-04:00</updated>
+    <id>http://kwangbkim.github.com/blog/2012/08/01/silicon-valley-and-the-timeshare-model</id>
+    <content type="html"><![CDATA[<p>Over the past week I&#8217;ve been reading a lot of material on <a href="http://daltoncaldwell.com/">Dalton Caldwell&#8217;s</a> blog.  It&#8217;s a tiny bit Jerry Maguire-ish but over and over again I find myself nodding my head in agreement.  The latest hot topic has been the recent changes to Twitter, presumably in an attempt to gain a better position to monetize their business.</p>
+
+<p>I think there is a fundamental flaw in the tech to marketing business model.  By saying tech to marketing, I mean a company who starts off as a tech company to attract users, who then changes to a marketing company to make money once they reach critical mass.  It&#8217;s happened to Facebook, and now it&#8217;s happening to Twitter.</p>
+
+<p>There&#8217;s nothing wrong when a business tries to make money.  But something seems a bit dubious about the whole process.  It&#8217;s kind of like one of those free timeshare weekend getaways.  Seems like a nice deal, until you&#8217;re subjected to 8 hours of pitches from salesman.  Yes, those salesman were within their right to do whatever.  After all, it&#8217;s not like you&#8217;re paying for anything.  But it still leaves a bad taste in your mouth doesn&#8217;t it?</p>
+
+<p>It&#8217;s the same kind of idea with some of these tech companies.  They&#8217;ve attained users who&#8217;ve been attracted to their free service.  But now to monetize the business the focus changes from pleasing the users to pleasing the advertisers or sponsors.  It creates a sum zero relationship because it&#8217;s near impossible to keep either happy without angering the other.  In the end the advertisers are the ones paying, so they are the ones who are catered to.  Meanwhile, users and third party developers slowly get more and more annoyed until a new free service comes along and everyone joins that and the business goes bust.  Presumably the process will repeat itself.</p>
+
+<p>Granted, not all companies have problems with this model.  <a href="http://www.stackexchange.com">StackExchange</a> offers an amazing product, is free and ad supported and is doing just fine thank you.</p>
+
+<p>Going back to Twitter, I&#8217;ve subscribed to <a href="http://join.app.net">App.Net</a>, Dalton Caldwell&#8217;s potential alternative.  Imagine the best of Twitter: clean, no ads, completely user focused, all for four bucks a month.  But it needs to raise $500k by August 14th and it doesn&#8217;t seem like they&#8217;re going to make it.  But we can all dream can&#8217;t we?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Getting A Job Out of College]]></title>
+    <link href="http://kwangbkim.github.com/blog/2012/07/25/getting-a-job-out-of-college/"/>
+    <updated>2012-07-25T20:53:00-04:00</updated>
+    <id>http://kwangbkim.github.com/blog/2012/07/25/getting-a-job-out-of-college</id>
+    <content type="html"><![CDATA[<p>It&#8217;s been five years since I first graduated from college and got a real job.  Here are the experiences from my first real job search, if you&#8217;re out there looking I hope it&#8217;ll help you.</p>
+
+<h2>Internship Experience</h2>
+
+<p>My junior year I did an internship at a big corporate insurance company.  To be blunt, I wasn&#8217;t a great fit.  As a developer I was able to get a good amount of work done.  Still, I was frustrated at the total length of time it took to gets things finished.  A tiny request such as renaming a label could take weeks by the time code reviews, QA and production approval take place.</p>
+
+<p>I also didn&#8217;t fit in well with the company culture.  For instance every Friday was hawaiian shirt day (queue office space references).  Perhaps it&#8217;s petty to hate something so small but it&#8217;s the principle that bothered me.  If I wore a hawaiian shirt it would be an admittance that I hate my job and would much rather be off on some remote island drinking a cocktail with a little umbrella in it.  I don&#8217;t want to hate work nor was I longing for an early retirement.  Call me a stereotypical millennial but I wanted to work hard, hopefully doing something I liked.</p>
+
+<p>Don&#8217;t get me wrong, the company and people treated me great.  As an attempt to keep my options open I kept a line of communication with my old boss.  We spoke a bunch of times but it was clear I was better off looking elsewhere.</p>
+
+<h2>Potential Suitors</h2>
+
+<p>Two companies stick out into my mind during my search.  One was a small Microsoft shop that I received an offer from and another was a small vendor from which I ran away as far and as fast as possible.</p>
+
+<p>I really liked the Microsoft shop.  Everyone was polite and thoughtful and the coders I met seemed pretty cool.  I didn&#8217;t get tested technically, so they probably wanted someone they liked at a personal level and who would be committed to the company.</p>
+
+<p>I did have reservations about the shop.  The first was that they used a little known Microsoft language for their development.  I wasn&#8217;t crazy about that.  The offer that came in was a little low to me.  Lastly, the company was located in a suburb where there wasn&#8217;t much to do and not many other young people to meet.  All of that combined I had to pass with some regret.</p>
+
+<p>But there was zero regret in passing on the small vendor.  I distinctly remember walking into the office.  Everything was beige.  The walls, the computers, the floor, the toilets.  Perhaps a monochromatic scheme was in at the time I thought.  The interview I had with the manager was  painful.  We talked for about five minutes.  Then he started reading a newspaper while asking me questions.  At first I thought if this was just a rouse, some test to see if I could keep my composure.  Then reality sank in.  I wondered if there was a cordial way to just excuse myself and get out of there.  I stuck it out and wrote a polite email declining a second interview.</p>
+
+<h2>The One</h2>
+
+<p>I came into contact with a recruiter who set me up with an interview at a hedge fund.  The work seemed interesting, I liked the idea of being part of a small team building programs in an agile manner.  I met every developer on the team.  They were all great.  Manager seemed like a great guy.  Everything was just peachy.  Then came the show stopper.  The conversation went something like this:</p>
+
+<blockquote><p>Manager - so how are your VB.NET skills?<br/>
+Me - uh, not good.  Basically non-existent.<br/>
+.. awkward silence ..<br/>
+Manager - every developer has to pass create a program on the spot as a test<br/>
+Me - I see..<br/>
+.. more awkward silence ..</p></blockquote>
+
+<p>After some more discussion and awkward silences I decided to just take a crack at it.  Worst case scenario I look like an idiot though no better than before.  With the allowed use of google I was able to hack up a solution in the two hours I was given.  I finished just as time expired and was graciously given a little leeway with a couple bugs in my code.  After it was all done I was told I was the only candidate they interviewed who completed the test and they&#8217;d be in touch.  And just like that I had my first job.</p>
+
+<h2>Finding Your First Job</h2>
+
+<h3>Whatever you think want to do when you get out of college, do it first during your summer breaks</h3>
+
+<p>You want to be a software developer?  Start working at it now.  Get an internship, work on side projects, start a web site, join GitHub etc.  The more experience you get prior to graduation the better you look once you get out.  Try and figure out what areas you like and which ones you don&#8217;t.  This will help you narrow down your job search.</p>
+
+<h3>Interviews work both ways</h3>
+
+<p>Even in today&#8217;s crappy economy don&#8217;t settle on taking the first job offered to you.  Do you like the company?  Do you like the people?  Do they seem happy?  Will you be happy moving if you need to?  Do you believe in the product?  Figure out what your priorities are and go from there.</p>
+
+<h3>Don&#8217;t over think it</h3>
+
+<p>If you find a good company with a good product, a good team and a good manager then you&#8217;re all set.  Try not to get too caught up in finding the perfect dream job.  I know this kind of goes against what I said above.  Just something to keep in mind if you&#8217;re stressing out on whether or not you should take an offer.</p>
+
+<h3>Prepare, prepare, prepare</h3>
+
+<p>Interviewing is not easy, especially if you&#8217;re a software developer.  A developer interview can range anywhere from a couple hours of conversation, to written tests, to writing code on a whiteboard all day.  Go over your resume and make sure you have a good grasp of all the fundamentals of the languages you list.  Also, start practicing coding problems.  Do challenges like Google Code Jam or TopCoder if you can.</p>
+]]></content>
+  </entry>
+  
+</feed>

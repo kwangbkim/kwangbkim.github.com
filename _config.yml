@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: http://kwangbkim.github.com
-title: kwang b. kim
+title: Kwang B. Kim
 subtitle: Software Developer
 author: Kwang B. Kim
 simple_search: 
@@ -29,7 +29,7 @@ email:
 root: /
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: public
+destination: publishing
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
