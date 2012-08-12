@@ -5,7 +5,7 @@ date: 2012-08-12 15:42
 comments: true
 categories: 
 ---
-In my [Sum Zero Silicon Valley](http://kwangbkim.com/blog/2012/08/01/silicon-valley-and-the-timeshare-model/)  post I noted [Dalton Caldwell's](http://daltoncaldwell.com/) new venture [App.Net](http://join.app.net), a Twitter-like application focused on users and not advertising.  At the time of my writing that funding had been going on for a couple weeks but had only amassed around $150k, well short of the $500k goal.  With only a week left things were looking grim right?
+In my [Sum Zero Silicon Valley](http://kwangbkim.com/blog/2012/08/01/silicon-valley-and-the-timeshare-model/)  post I noted [Dalton Caldwell's](http://daltoncaldwell.com/) new venture [App.Net](http://join.app.net), a Twitter-like application focused on users and not advertising.  At the time of my writing, funding had been going on for a couple weeks but had only amassed around $150k, well short of the $500k goal.  With only a week left things were looking grim right?
 
 Wrong!  I have to give Dalton huge props here, because with many people theorizing that funding would be well short, he remained confident.  His explanation [here](http://daltoncaldwell.com/appnet-is-not-vaporware) is pretty spot on.  It also doesn't hurt to have [John Gruber](http://daringfireball.net/) advocating your stuff.  I think within a day of his giving a shout out to App.Net, the site was able to raise an additional $100k.
 
