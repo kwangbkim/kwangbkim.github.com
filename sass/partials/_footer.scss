@@ -5,10 +5,11 @@ body > footer {
   background-color: $footer-bg;
   border-top: 1px solid $footer-border-top;
   position: relative;
-  text-align: center;
+  padding-left:30.5em;
   padding-top: 1em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   margin-bottom: 3em;
+  min-width:240px;
   @include border-bottom-radius(.4em);
   z-index: 1;
   a {
@@ -20,4 +21,7 @@ body > footer {
 	padding-right: .5em;
   }
   p:last-child { margin-bottom: 0; }
+  p {
+    font-family: Baskerville;	
+  }
 }
