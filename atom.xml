@@ -4,7 +4,7 @@
   <title><![CDATA[Kwang B. Kim]]></title>
   <link href="http://kwangbkim.github.com/atom.xml" rel="self"/>
   <link href="http://kwangbkim.github.com/"/>
-  <updated>2012-08-12T23:00:17-04:00</updated>
+  <updated>2012-08-14T22:36:32-04:00</updated>
   <id>http://kwangbkim.github.com/</id>
   <author>
     <name><![CDATA[Kwang B. Kim]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Lumosity: Cool Idea, Want Refund]]></title>
+    <link href="http://kwangbkim.github.com/blog/2012/08/14/lumosity-cool-idea/"/>
+    <updated>2012-08-14T22:03:00-04:00</updated>
+    <id>http://kwangbkim.github.com/blog/2012/08/14/lumosity-cool-idea</id>
+    <content type="html"><![CDATA[<p>If you haven&#8217;t heard of <a href="http://www.lumosity.com/">Lumosity</a> it&#8217;s a relatively new startup that&#8217;s been hyped up a lot by the media.  The basic premise is that playing their games, based on academic research, can help improve brain function and performance.</p>
+
+<p>Sounds like a pretty cool idea right?  I figured I&#8217;d give it a shot and signed up for a one year membership.  The first couple weeks were fine, I didn&#8217;t really feel any different.  Then it just became a chore and seeing as how I didn&#8217;t benefit, I slowly gave up on it.  I&#8217;m not going to argue whether or not the games actually help as that wasn&#8217;t the issue for me.</p>
+
+<p>The real problem was the offered benefits to me were generally worthless.  For instance, they offered not one, but two types of games to help train your peripheral vision.  I loathed these games but was forced to play it over and over even when it wasn&#8217;t something I cared to improve.  I wanted to work on problem solving skills, hoping it would improve my abilities as a developer.  Unfortunately, they seem to only have games for simple non-complex problems like basic arithmetic.</p>
+
+<p>So after 80 bucks down the drain there&#8217;s a simple lesson to be learned: if you want to get smarter there&#8217;s no substitute for hard work.  If you&#8217;re a developer that means writing more code, reading others, and occasionally hitting the books.  Everything else is a probably a distraction.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[App.Net]]></title>
