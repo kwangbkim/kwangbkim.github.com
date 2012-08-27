@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tried Algo Trading, Losses Ensue"
-date: 2012-08-17 18:06
+date: 2012-08-26 18:06
 comments: false
 categories: 
 ---
