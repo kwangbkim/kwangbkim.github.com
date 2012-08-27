@@ -4,7 +4,7 @@
   <title><![CDATA[Kwang B. Kim]]></title>
   <link href="http://kwangbkim.github.com/atom.xml" rel="self"/>
   <link href="http://kwangbkim.github.com/"/>
-  <updated>2012-08-14T22:39:24-04:00</updated>
+  <updated>2012-08-26T21:15:15-04:00</updated>
   <id>http://kwangbkim.github.com/</id>
   <author>
     <name><![CDATA[Kwang B. Kim]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tried Algo Trading, Losses Ensue]]></title>
+    <link href="http://kwangbkim.github.com/blog/2012/08/17/tried-algo-trading/"/>
+    <updated>2012-08-17T18:06:00-04:00</updated>
+    <id>http://kwangbkim.github.com/blog/2012/08/17/tried-algo-trading</id>
+    <content type="html"><![CDATA[<p>About a year ago I had some extra time on my hands and decided I&#8217;d take a crack at creating an <a href="http://en.wikipedia.org/wiki/Algorithmic_trading">algorithmic trading</a> strategy.  <a href="http://individuals.interactivebrokers.com/en/main.php">Interactive Brokers</a> offers an API which you can use to gather data and execute trades, though you will have to plop down the $10k minimum for an account.</p>
+
+<p>Here&#8217;s a quick pitch of the idea I was executing.  Long story short is that it did horribly, (maybe because I didn&#8217;t want to make it do intraday trading, reason <a href="http://blogs.wsj.com/marketbeat/2012/08/02/knight-capital-trading-error-cost-firm-440-million/">here</a> but if you&#8217;re interested in this stuff I&#8217;ve dumped all of my code out to <a href="https://github.com/kwangbkim/IBAlgoTrader">GitHub</a>.</p>
+
+<p>On any given day most of the global markets are generally correlated.  Not only Asia/US/Europe, but emerging countries as well like Brazil and India.  But at the same time each individual country&#8217;s financial market is affected by it&#8217;s own inner dynamics.  Things like domestic and international politics can change a single economy in a way that differs from the rest of the world.</p>
+
+<p>The idea is to track each individual country&#8217;s market and compare it to some global world index.  I used Vanguard&#8217;s <a href="https://personal.vanguard.com/us/funds/snapshot?FundId=3141&amp;FundIntExt=INT">Total World Stock ETF</a>.  The price data I collected was daily and weekly.  By gathering price data based on different time intervals, I can calculate a country&#8217;s correlation to the global index over multiple time periods.  When there&#8217;s a large difference between the long term (weekly) and short term (daily) correlations, that denotes an event occurred in a particular country&#8217;s domestic market and a trade should be made.</p>
+
+<p>Some random pitfalls I encountered:
+*  International events that affect multiple countries at the same time, triggering multiple trade alerts.  Not good because the goal is to make separate trades that are uncorrelated with each other to increase diversification and reduce variance.
+*  It seemed like some events could just be rumors and dissipates quickly, or the market is just too efficient.  By the time my program noticed a correlation shift it would be too late and I&#8217;d lose money.</p>
+
+<p>The true moral of the story here is that retail trading should be done for fun, not for profit!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Lumosity: Cool Idea, Want Refund]]></title>
