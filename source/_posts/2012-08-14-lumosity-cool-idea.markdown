@@ -2,7 +2,7 @@
 layout: post
 title: "Lumosity: Cool Idea, Want Refund"
 date: 2012-08-14 22:03
-comments: true
+comments: false
 categories: 
 ---
 If you haven't heard of [Lumosity](http://www.lumosity.com/) it's a relatively new startup that's been hyped up a lot by the media.  The basic premise is that playing their games, based on academic research, can help improve brain function and performance.
