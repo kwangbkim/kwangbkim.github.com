@@ -1,6 +1,6 @@
 body > header {
   background: $header-bg;
-  position:relative;
+  position: relative;
   min-width:240px;
   h1 {
     display: inline-block;
@@ -13,8 +13,8 @@ body > header {
     }
   }
   h2 {
-    margin: .2em 0 1.1em;
-    font-size: 1.2em;
+    margin: .2em 10em 1.1em 0em;
+    font-size: 1em;
     color: $subtitle-color;
     font-weight: 100;
 	font-style:italic;
