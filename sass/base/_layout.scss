@@ -85,7 +85,7 @@ body {
   > header {
     font-size: $header-font-size;
     padding-top: $header-padding-top;
-	padding-right:50em;
+	padding-right: 53em;
 	border-bottom:1px solid #E8EDED;
   }
 }
@@ -139,7 +139,7 @@ body.sidebar-footer {
     margin: 0 auto;
   }
   #content {
-    overflow: visible;
+    overflow: hidden;
     margin-right: $sidebar-width-medium;
     position: relative;
     .no-sidebar & { margin-right: 0; border-right: 0; }
