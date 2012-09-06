@@ -4,7 +4,7 @@
   <title><![CDATA[Kwang B. Kim]]></title>
   <link href="http://kwangbkim.github.com/atom.xml" rel="self"/>
   <link href="http://kwangbkim.github.com/"/>
-  <updated>2012-08-31T22:05:19-04:00</updated>
+  <updated>2012-09-05T23:14:06-04:00</updated>
   <id>http://kwangbkim.github.com/</id>
   <author>
     <name><![CDATA[Kwang B. Kim]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[TextMate 2 On Github]]></title>
+    <link href="http://kwangbkim.github.com/blog/2012/09/05/textmate-2-on-github/"/>
+    <updated>2012-09-05T21:46:00-04:00</updated>
+    <id>http://kwangbkim.github.com/blog/2012/09/05/textmate-2-on-github</id>
+    <content type="html"><![CDATA[<p>If you have a Mac and are a developer chances are that you&#8217;re already familiar with <a href="http://blog.macromates.com/">TextMate</a>.  Well, after six years of waiting the highly anticipated sequel is out, as open source software.  Kudos to Allan Odgaard for sticking with it for so long, though many have theorized (myself included) that the project was basically being given up on, a la <a href="https://en.wikipedia.org/wiki/Duke_Nukem_Forever">Duke Nukem Forever</a>.</p>
+
+<p>Well, after a few weeks it looks like the <a href="https://github.com/textmate/textmate">Github project</a> is alive and kicking, with tons of fixes and enhancements being added.  Check it out for yourself and see what you think.  I do highly recommend installing  <a href="http://mxcl.github.com/homebrew/">Homebrew</a> as it makes installing TextMate&#8217;s dependencies a cinch.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Tried Algo Trading, Losses Ensue]]></title>
