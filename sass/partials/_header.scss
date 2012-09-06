@@ -1,7 +1,10 @@
 body > header {
+  font-size: $header-font-size;
+  padding-top: $header-padding-top;
+  border-bottom:1px solid #E8EDED;
   background: $header-bg;
   position: relative;
-  min-width:240px;
+  min-width:600px;
   h1 {
     display: inline-block;
 	font-weight:bold;
@@ -13,6 +16,7 @@ body > header {
     }
   }
   h2 {
+  width: 20em;
     margin: .2em 1em 1em 0em;
     font-size: 1em;
     color: $subtitle-color;
