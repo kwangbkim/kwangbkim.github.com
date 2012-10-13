@@ -4,7 +4,7 @@
   <title><![CDATA[Kwang B. Kim]]></title>
   <link href="http://kwangbkim.github.com/atom.xml" rel="self"/>
   <link href="http://kwangbkim.github.com/"/>
-  <updated>2012-09-30T10:16:32-04:00</updated>
+  <updated>2012-10-13T16:01:46-04:00</updated>
   <id>http://kwangbkim.github.com/</id>
   <author>
     <name><![CDATA[Kwang B. Kim]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress: Static Blogging]]></title>
+    <link href="http://kwangbkim.github.com/blog/2012/10/13/octopress-static-blogging/"/>
+    <updated>2012-10-13T15:48:00-04:00</updated>
+    <id>http://kwangbkim.github.com/blog/2012/10/13/octopress-static-blogging</id>
+    <content type="html"><![CDATA[<p>I&#8217;ve been running this blog for a few months now without giving proper credit to <a href="http://octopress.org/">Octopress</a>.  If you haven&#8217;t heard of it, Octopress is a website generator primarily for blogging, on top of the ruby <a href="https://github.com/mojombo/jekyll">jekyll framework</a>.  It&#8217;s easy to use (little to no Ruby experience required), is free and hooks into <a href="http://pages.github.com/">Github Hosting</a> (also free) quite nicely.  If you&#8217;re thinking about starting a site it&#8217;s worth checking out.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Childhood Nostalgia: NES Cartridge Cleaning]]></title>
