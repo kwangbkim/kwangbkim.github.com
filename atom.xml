@@ -4,7 +4,7 @@
   <title><![CDATA[Kwang B. Kim]]></title>
   <link href="http://kwangbkim.github.com/atom.xml" rel="self"/>
   <link href="http://kwangbkim.github.com/"/>
-  <updated>2012-10-13T16:01:46-04:00</updated>
+  <updated>2012-11-11T17:47:56-05:00</updated>
   <id>http://kwangbkim.github.com/</id>
   <author>
     <name><![CDATA[Kwang B. Kim]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Todo Apps. Are. Everywhere.]]></title>
+    <link href="http://kwangbkim.github.com/blog/2012/11/11/todo-apps-are-everywhere/"/>
+    <updated>2012-11-11T17:14:00-05:00</updated>
+    <id>http://kwangbkim.github.com/blog/2012/11/11/todo-apps-are-everywhere</id>
+    <content type="html"><![CDATA[<p>I read an interesting article on <a href="http://www.codinghorror.com/blog/">Jeff Atwood&#8217;s blog</a> regarding his thoughts on <a href="http://www.codinghorror.com/blog/2012/10/todont.html">Todo Apps</a> and how we sometimes go overboard trying to be super organized.  I&#8217;ve fallen for the Todo App trap multiple times myself, having used <a href="https://workflowy.com/">Workflowy</a> and <a href="http://culturedcode.com/things/">Things</a> to no avail.  They were both good apps, but at some point they each became too much of a hassle to maintain and it wasn&#8217;t worth the effort.</p>
+
+<p>I guess what it comes down to is striking that delicate balance between being organized and actually getting stuff done.  Todo apps aren&#8217;t worthless, it&#8217;s just that if we spend all of our time finding and using one it ironically becomes detrimental to our own productivity.</p>
+
+<p>I think I&#8217;ve found a pretty good app in <a href="http://www.any.do/">Any.Do</a>.  It&#8217;s simple, intuitive and syncs easily between phone/computer/tablet etc.  I don&#8217;t put every little thing on it but it&#8217;s certainly nice to have around.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress: Static Blogging]]></title>
