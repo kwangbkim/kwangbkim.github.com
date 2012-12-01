@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: lumosity | Kwang B. Kim]]></title>
+  <link href="http://kwangbkim.github.com/blog/categories/lumosity/atom.xml" rel="self"/>
+  <link href="http://kwangbkim.github.com/"/>
+  <updated>2012-11-30T23:55:41-05:00</updated>
+  <id>http://kwangbkim.github.com/</id>
+  <author>
+    <name><![CDATA[Kwang B. Kim]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Lumosity: Cool Idea, Want Refund]]></title>
+    <link href="http://kwangbkim.github.com/blog/2012/08/14/lumosity-cool-idea/"/>
+    <updated>2012-08-14T22:03:00-04:00</updated>
+    <id>http://kwangbkim.github.com/blog/2012/08/14/lumosity-cool-idea</id>
+    <content type="html"><![CDATA[<p>If you haven't heard of <a href="http://www.lumosity.com/">Lumosity</a> it's a relatively new startup that's been hyped up a lot by the media.  The basic premise is that playing their games, based on academic research, can help improve brain function and performance.</p>
+
+<p>Sounds like a pretty cool idea right?  I figured I'd give it a shot and signed up for a one year membership.  The first couple weeks were fine, I didn't really feel any different.  Then it just became a chore and seeing as how I didn't benefit, I slowly gave up on it.  I'm not going to argue whether or not the games actually help as that wasn't the issue for me.</p>
+
+<p>The real problem was the offered benefits to me were generally worthless.  For instance, they offered not one, but two types of games to help train your peripheral vision.  I loathed these games but was forced to play it over and over even when it wasn't something I cared to improve.  I wanted to work on problem solving skills, hoping it would improve my abilities as a developer.  Unfortunately, they seem to only have games for simple non-complex problems like basic arithmetic.</p>
+
+<p>So after 80 bucks down the drain there's a simple lesson to be learned: if you want to get smarter there's no substitute for hard work.  If you're a developer that means writing more code, reading others, and occasionally hitting the books.  Everything else is a probably a distraction.</p>
+]]></content>
+  </entry>
+  
+</feed>

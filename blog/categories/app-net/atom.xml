@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: app.net | Kwang B. Kim]]></title>
+  <link href="http://kwangbkim.github.com/blog/categories/app-net/atom.xml" rel="self"/>
+  <link href="http://kwangbkim.github.com/"/>
+  <updated>2012-11-30T23:55:41-05:00</updated>
+  <id>http://kwangbkim.github.com/</id>
+  <author>
+    <name><![CDATA[Kwang B. Kim]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[App.Net]]></title>
+    <link href="http://kwangbkim.github.com/blog/2012/08/12/app-dot-net/"/>
+    <updated>2012-08-12T15:42:00-04:00</updated>
+    <id>http://kwangbkim.github.com/blog/2012/08/12/app-dot-net</id>
+    <content type="html"><![CDATA[<p>In my <a href="http://kwangbkim.com/blog/2012/08/01/silicon-valley-and-the-timeshare-model/">Sum Zero Silicon Valley</a>  post I noted <a href="http://daltoncaldwell.com/">Dalton Caldwell's</a> new venture <a href="http://join.app.net">App.Net</a>, a Twitter-like application focused on users and not advertising.  At the time of my writing, funding had been going on for a couple weeks but had only amassed around $150k, well short of the $500k goal.  With only a week left things were looking grim right?</p>
+
+<p>Wrong!  I have to give Dalton huge props here, because with many people theorizing that funding would be well short, he remained confident.  His explanation <a href="http://daltoncaldwell.com/appnet-is-not-vaporware">here</a> is pretty spot on.  It also doesn't hurt to have <a href="http://daringfireball.net/">John Gruber</a> advocating your stuff.  I think within a day of his giving a shout out to App.Net, the site was able to raise an additional $100k.</p>
+
+<p>So what's next?  Well, I suppose that the real work begins.  The <a href="https://github.com/appdotnet/api-spec">API</a> needs to be hashed out, as that is still a work in progress.  <a href="http://samsoff.es/posts/app-net-is-dreaming-small">Sam Soffes</a> made a good point in that App.Net may have marketing issues, as it seems that the product is geared more towards developers than users themselves.  The product itself still needs to be built, the only tangible thing that exists right now is a prototype and a few apps to prove the API can work.</p>
+
+<p>But still, the next few months should be exciting.  I'll be watching the development of the API closely as that to me is where the real possibilities lie.  Congratulations to the App.Net team!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sum Zero Silicon Valley]]></title>
+    <link href="http://kwangbkim.github.com/blog/2012/08/01/silicon-valley-and-the-timeshare-model/"/>
+    <updated>2012-08-01T23:00:00-04:00</updated>
+    <id>http://kwangbkim.github.com/blog/2012/08/01/silicon-valley-and-the-timeshare-model</id>
+    <content type="html"><![CDATA[<p>Over the past week I've been reading a lot of material on <a href="http://daltoncaldwell.com/">Dalton Caldwell's</a> blog.  It's a tiny bit Jerry Maguire-ish but over and over again I find myself nodding my head in agreement.  The latest hot topic has been the recent changes to Twitter, presumably in an attempt to gain a better position to monetize their business.</p>
+
+<p>I think there is a fundamental flaw in the tech to marketing business model.  By saying tech to marketing, I mean a company who starts off as a tech company to attract users, who then changes to a marketing company to make money once they reach critical mass.  It's happened to Facebook, and now it's happening to Twitter.</p>
+
+<p>There's nothing wrong when a business tries to make money.  But something seems a bit dubious about the whole process.  It's kind of like one of those free timeshare weekend getaways.  Seems like a nice deal, until you're subjected to 8 hours of pitches from salesman.  Yes, those salesman were within their right to do whatever.  After all, it's not like you're paying for anything.  But it still leaves a bad taste in your mouth doesn't it?</p>
+
+<p>It's the same kind of idea with some of these tech companies.  They've attained users who've been attracted to their free service.  But now to monetize the business the focus changes from pleasing the users to pleasing the advertisers or sponsors.  It creates a sum zero relationship because it's near impossible to keep either happy without angering the other.  In the end the advertisers are the ones paying, so they are the ones who are catered to.  Meanwhile, users and third party developers slowly get more and more annoyed until a new free service comes along and everyone joins that and the business goes bust.  Presumably the process will repeat itself.</p>
+
+<p>Granted, not all companies have problems with this model.  <a href="http://www.stackexchange.com">StackExchange</a> offers an amazing product, is free and ad supported and is doing just fine thank you.</p>
+
+<p>Going back to Twitter, I've subscribed to <a href="http://join.app.net">App.Net</a>, Dalton Caldwell's potential alternative.  Imagine the best of Twitter: clean, no ads, completely user focused, all for four bucks a month.  But it needs to raise $500k by August 14th and it doesn't seem like they're going to make it.  But we can all dream can't we?</p>
+]]></content>
+  </entry>
+  
+</feed>

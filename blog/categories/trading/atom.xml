@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: trading | Kwang B. Kim]]></title>
+  <link href="http://kwangbkim.github.com/blog/categories/trading/atom.xml" rel="self"/>
+  <link href="http://kwangbkim.github.com/"/>
+  <updated>2012-11-30T23:55:41-05:00</updated>
+  <id>http://kwangbkim.github.com/</id>
+  <author>
+    <name><![CDATA[Kwang B. Kim]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Quant Trading For The Public]]></title>
+    <link href="http://kwangbkim.github.com/blog/2012/09/21/quant-trading-for-the-public/"/>
+    <updated>2012-09-21T22:49:00-04:00</updated>
+    <id>http://kwangbkim.github.com/blog/2012/09/21/quant-trading-for-the-public</id>
+    <content type="html"><![CDATA[<p>Over the past few months I've noticed a couple start ups that offer the general public access to create their own algorithmic trading strategies.  One such startup I saw today on <a href="http://news.ycombinator.com/">Hacker News</a> is called <a href="https://quantblocks2.herokuapp.com/">Quant Blocks</a>.</p>
+
+<h2></h2>
+
+<p>The site and product both look impressive.  What worries me is that these types of products advertise a "simple" way of making money from trading.  Certainly it's not like those infomercials you see on TV that have <a href="http://www.youtube.com/watch?v=camXcNBLi9c">Jimmy Johnson</a> touting wares to poor souls.  But to say that making money from trading can be as easy as creating a couple rules and backtesting them against data is foolhardy.</p>
+
+<p>What's worse is that I think rules based trading has the potential to invite more instability to an already crazy market.  Warren Buffet likes to refer to the market as a voting machine.  That is, when you buy Apple stock you are giving it an "up" vote that you think this stock is worth more than its current price.  So what happens when I find a successful strategy that tells me to buy Apple during the first week of June, or on November 11th before 11am, and sell it all on December 15th but only if IBM is rising that day?  It could make money, but my "vote" has become random, uninformed and worthless.  When people stop investing and start gambling in the market, needless to say bad things happen.</p>
+
+<h2></h2>
+
+<p>The bottom line is don't let this stop you from trading for fun.  But just like a casino, don't bring more money than you can afford to lose.  Treat it as entertainment and don't take it too seriously, or you might just end up at a road show listening to a semi-celebrity touting some new amazing money making invention.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tried Algo Trading, Losses Ensue]]></title>
+    <link href="http://kwangbkim.github.com/blog/2012/08/26/tried-algo-trading/"/>
+    <updated>2012-08-26T18:06:00-04:00</updated>
+    <id>http://kwangbkim.github.com/blog/2012/08/26/tried-algo-trading</id>
+    <content type="html"><![CDATA[<p>About a year ago I had some extra time on my hands and decided I'd take a crack at creating an <a href="http://en.wikipedia.org/wiki/Algorithmic_trading">algorithmic trading</a> strategy.  <a href="http://individuals.interactivebrokers.com/en/main.php">Interactive Brokers</a> offers an API which you can use to gather data and execute trades, though you will have to plop down the $10k minimum for an account.</p>
+
+<p>Here's a quick pitch of the idea I was executing.  Long story short is that it did horribly, (maybe because I didn't want to make it do intraday trading, reason <a href="http://blogs.wsj.com/marketbeat/2012/08/02/knight-capital-trading-error-cost-firm-440-million/">here)</a> but if you're interested in this stuff I've dumped all of my code out to <a href="https://github.com/kwangbkim/IBAlgoTrader">GitHub</a>.</p>
+
+<h2>Overview</h2>
+
+<p>On any given day most of the global markets are generally correlated.  Not only Asia/US/Europe, but emerging countries as well like Brazil and India.  But at the same time each individual country's financial market is affected by it's own inner dynamics.  Things like domestic and international politics can change a single economy in a way that differs from the rest of the world.</p>
+
+<p>The idea is to track each individual country's market and compare it to some global world index.  I used Vanguard's <a href="https://personal.vanguard.com/us/funds/snapshot?FundId=3141&amp;FundIntExt=INT">Total World Stock ETF</a>.  The price data I collected was daily and weekly.  By gathering price data based on different time intervals, I can calculate a country's correlation to the global index over multiple time periods.  When there's a large difference between the long term (weekly) and short term (daily) correlations, that denotes an event occurred in a particular country's domestic market and a trade should be made.</p>
+
+<h2>Main pitfalls</h2>
+
+<ul>
+<li>International events that affect multiple countries at the same time, triggering multiple trade alerts.  Not good because the goal is to make separate trades that are uncorrelated with each other to increase diversification and reduce variance.</li>
+<li>It seemed like some events could just be rumors and dissipates quickly, or the market is just too efficient.  By the time my program noticed a correlation shift it would be too late and I'd lose money.</li>
+</ul>
+
+
+<p>The true moral of the story here is that retail trading should be done for fun, not for profit!</p>
+]]></content>
+  </entry>
+  
+</feed>

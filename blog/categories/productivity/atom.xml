@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: productivity | Kwang B. Kim]]></title>
+  <link href="http://kwangbkim.github.com/blog/categories/productivity/atom.xml" rel="self"/>
+  <link href="http://kwangbkim.github.com/"/>
+  <updated>2012-11-30T23:55:41-05:00</updated>
+  <id>http://kwangbkim.github.com/</id>
+  <author>
+    <name><![CDATA[Kwang B. Kim]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Todo Apps. Are. Everywhere.]]></title>
+    <link href="http://kwangbkim.github.com/blog/2012/11/11/todo-apps-are-everywhere/"/>
+    <updated>2012-11-11T17:14:00-05:00</updated>
+    <id>http://kwangbkim.github.com/blog/2012/11/11/todo-apps-are-everywhere</id>
+    <content type="html"><![CDATA[<p>I read an interesting article on <a href="http://www.codinghorror.com/blog/">Jeff Atwood's blog</a> regarding his thoughts on <a href="http://www.codinghorror.com/blog/2012/10/todont.html">Todo Apps</a> and how we sometimes go overboard trying to be super organized.  I've fallen for the Todo App trap multiple times myself, having used <a href="https://workflowy.com/">Workflowy</a> and <a href="http://culturedcode.com/things/">Things</a> to no avail.  They were both good apps, but at some point they each became too much of a hassle to maintain and it wasn't worth the effort.</p>
+
+<p>I guess what it comes down to is striking that delicate balance between being organized and actually getting stuff done.  Todo apps aren't worthless, it's just that if we spend all of our time finding and using one it ironically becomes detrimental to our own productivity.</p>
+
+<p>I think I've found a pretty good app in <a href="http://www.any.do/">Any.Do</a>.  It's simple, intuitive and syncs easily between phone/computer/tablet etc.  I don't put every little thing on it but it's certainly nice to have around.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Lumosity: Cool Idea, Want Refund]]></title>
+    <link href="http://kwangbkim.github.com/blog/2012/08/14/lumosity-cool-idea/"/>
+    <updated>2012-08-14T22:03:00-04:00</updated>
+    <id>http://kwangbkim.github.com/blog/2012/08/14/lumosity-cool-idea</id>
+    <content type="html"><![CDATA[<p>If you haven't heard of <a href="http://www.lumosity.com/">Lumosity</a> it's a relatively new startup that's been hyped up a lot by the media.  The basic premise is that playing their games, based on academic research, can help improve brain function and performance.</p>
+
+<p>Sounds like a pretty cool idea right?  I figured I'd give it a shot and signed up for a one year membership.  The first couple weeks were fine, I didn't really feel any different.  Then it just became a chore and seeing as how I didn't benefit, I slowly gave up on it.  I'm not going to argue whether or not the games actually help as that wasn't the issue for me.</p>
+
+<p>The real problem was the offered benefits to me were generally worthless.  For instance, they offered not one, but two types of games to help train your peripheral vision.  I loathed these games but was forced to play it over and over even when it wasn't something I cared to improve.  I wanted to work on problem solving skills, hoping it would improve my abilities as a developer.  Unfortunately, they seem to only have games for simple non-complex problems like basic arithmetic.</p>
+
+<p>So after 80 bucks down the drain there's a simple lesson to be learned: if you want to get smarter there's no substitute for hard work.  If you're a developer that means writing more code, reading others, and occasionally hitting the books.  Everything else is a probably a distraction.</p>
+]]></content>
+  </entry>
+  
+</feed>
