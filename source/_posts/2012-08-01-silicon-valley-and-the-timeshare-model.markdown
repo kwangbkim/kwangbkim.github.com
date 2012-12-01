@@ -3,7 +3,7 @@ layout: post
 title: "Sum Zero Silicon Valley"
 date: 2012-08-01 23:00
 comments: false
-categories: 
+categories: [startups, app.net, twitter]
 ---
 
 Over the past week I've been reading a lot of material on [Dalton Caldwell's](http://daltoncaldwell.com/) blog.  It's a tiny bit Jerry Maguire-ish but over and over again I find myself nodding my head in agreement.  The latest hot topic has been the recent changes to Twitter, presumably in an attempt to gain a better position to monetize their business. 

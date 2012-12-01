@@ -3,7 +3,7 @@ layout: post
 title: "Open Sourced Judging"
 date: 2012-08-10 20:18
 comments: false
-categories: 
+categories: [olympics]
 ---
 As a Korean-American I've had the luxury to follow both countries in the current Olympics.  One particular story that jumped out was about Shin Lam, the South Korean fencer who was unfairly eliminated due to a clock malfunction.  Shin Lam only had to evade getting touched for one second in order to move on to the finals.  Unfortunately, time works in [mysterious ways](http://www.youtube.com/watch?v=G7QENF5Uf7k).
 

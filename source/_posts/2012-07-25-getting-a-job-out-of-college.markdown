@@ -3,7 +3,7 @@ layout: post
 title: "Getting A Job Out of College"
 date: 2012-07-25 20:53
 comments: false
-categories: 
+categories: [job, interview, college]
 ---
 It's been five years since I first graduated from college and got a real job.  Here are the experiences from my first real job search, if you're out there looking I hope it'll help you.
 	

@@ -3,7 +3,7 @@ layout: post
 title: "App.Net"
 date: 2012-08-12 15:42
 comments: false
-categories: 
+categories: [app.net]
 ---
 In my [Sum Zero Silicon Valley](http://kwangbkim.com/blog/2012/08/01/silicon-valley-and-the-timeshare-model/)  post I noted [Dalton Caldwell's](http://daltoncaldwell.com/) new venture [App.Net](http://join.app.net), a Twitter-like application focused on users and not advertising.  At the time of my writing, funding had been going on for a couple weeks but had only amassed around $150k, well short of the $500k goal.  With only a week left things were looking grim right?
 

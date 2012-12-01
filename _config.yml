@@ -4,7 +4,7 @@
 
 url: http://kwangbkim.github.com
 title: Kwang B. Kim
-subtitle: Software Developer
+subtitle: 
 author: Kwang B. Kim
 simple_search: 
 description: Kwang B. Kim - Software Developer.
@@ -64,8 +64,8 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user: kwang_b_kim
-twitter_tweet_count: 4
+twitter_user: bkwangkim
+twitter_tweet_count: 0
 twitter_show_replies: false
 twitter_follow_button: false
 twitter_show_follower_count: false
@@ -97,3 +97,6 @@ google_analytics_tracking_id: UA-33849191-1
 
 # Facebook Like
 facebook_like: false
+
+# Linked In
+linkedin_user: kwang-kim/a/18a/474

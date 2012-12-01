@@ -3,7 +3,7 @@ layout: post
 title: "Todo Apps. Are. Everywhere."
 date: 2012-11-11 17:14
 comments: true
-categories: 
+categories: [productivity, apps]
 ---
 
 I read an interesting article on [Jeff Atwood's blog](http://www.codinghorror.com/blog/) regarding his thoughts on [Todo Apps](http://www.codinghorror.com/blog/2012/10/todont.html) and how we sometimes go overboard trying to be super organized.  I've fallen for the Todo App trap multiple times myself, having used [Workflowy](https://workflowy.com/) and [Things](http://culturedcode.com/things/) to no avail.  They were both good apps, but at some point they each became too much of a hassle to maintain and it wasn't worth the effort.

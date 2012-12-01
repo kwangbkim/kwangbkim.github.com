@@ -3,7 +3,7 @@ layout: post
 title: "Childhood Nostalgia: NES Cartridge Cleaning"
 date: 2012-09-29 14:20
 comments: true
-categories: 
+categories: [nintendo]
 ---
 
 There was an [article](http://www.mentalfloss.com/blogs/archives/142550) the other day analyzing the effectiveness of blowing into NES cartridges.  The conclusion they came to was that blowing did not help at all and any perceived improvement was due to the [placebo effect](https://en.wikipedia.org/wiki/Placebo).

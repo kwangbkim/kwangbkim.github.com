@@ -1,14 +1,8 @@
 ---
 layout: default
-footer: false
+title: Blog Archives
 ---
 
-<div class="blog-index">
-  {% assign index = true %}
-  {% for post in site.posts reverse %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-  {% endfor %}
-</div>
+{% for post in site.posts reverse %}
+	{% include archive_post.html %}
+{% endfor %}

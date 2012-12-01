@@ -3,7 +3,7 @@ layout: post
 title: "Tried Algo Trading, Losses Ensue"
 date: 2012-08-26 18:06
 comments: false
-categories: 
+categories: [trading]
 ---
 About a year ago I had some extra time on my hands and decided I'd take a crack at creating an [algorithmic trading](http://en.wikipedia.org/wiki/Algorithmic_trading) strategy.  [Interactive Brokers](http://individuals.interactivebrokers.com/en/main.php) offers an API which you can use to gather data and execute trades, though you will have to plop down the $10k minimum for an account.
 
