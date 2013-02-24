@@ -6,8 +6,8 @@ $max-width: 1000px;
 }
 body{
 	font-family: $font-default;
-	font-weight: 300;
-	font-size: 14px;
+	font-weight: 100;
+	font-size: 17px;
 	background: $color-background;
 	color: $color-gray01;
 	@media screen and (max-width: 1040px){
