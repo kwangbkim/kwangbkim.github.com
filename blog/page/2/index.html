@@ -7,7 +7,7 @@
 	<meta name="author" content="Kwang B. Kim">
 
 	
-	<meta name="description" content="I&#8217;ve been running this blog for a few months now without giving proper credit to Octopress. If you haven&#8217;t heard of it, Octopress is a &hellip;">
+	<meta name="description" content="I read an interesting article on Jeff Atwood&#8217;s blog regarding his thoughts on Todo Apps and how we sometimes go overboard trying to be super &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -63,6 +63,45 @@
 			
 			<div class="mid-col-container">
 				<div id="content" class="inner">
+
+
+    <article class="post">
+	<div class="meta">
+		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-11T17:14:00-05:00" pubdate data-updated="true">Nov 11<span>th</span>, 2012</time></div>
+		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/apps/'>apps</a>, <a class='category' href='/blog/categories/productivity/'>productivity</a>
+
+
+</div>
+		
+	</div>
+	<h1 class="title"><a href="/blog/2012/11/11/todo-apps-are-everywhere/">Todo Apps. Are. Everywhere.</a></h1>
+	<div class="entry-content">
+		<p>I read an interesting article on <a href="http://www.codinghorror.com/blog/">Jeff Atwood&#8217;s blog</a> regarding his thoughts on <a href="http://www.codinghorror.com/blog/2012/10/todont.html">Todo Apps</a> and how we sometimes go overboard trying to be super organized.  I&#8217;ve fallen for the Todo App trap multiple times myself, having used <a href="https://workflowy.com/">Workflowy</a> and <a href="http://culturedcode.com/things/">Things</a> to no avail.  They were both good apps, but at some point they each became too much of a hassle to maintain and it wasn&#8217;t worth the effort.</p>
+
+<p>I guess what it comes down to is striking that delicate balance between being organized and actually getting stuff done.  Todo apps aren&#8217;t worthless, it&#8217;s just that if we spend all of our time finding and using one it ironically becomes detrimental to our own productivity.</p>
+
+<p>I think I&#8217;ve found a pretty good app in <a href="http://www.any.do/">Any.Do</a>.  It&#8217;s simple, intuitive and syncs easily between phone/computer/tablet etc.  I don&#8217;t put every little thing on it but it&#8217;s certainly nice to have around.</p>
+
+		
+		
+	</div>
+
+</article>
 
 
     <article class="post">
@@ -218,59 +257,6 @@
 		<p>If you have a Mac and are a developer chances are that you&#8217;re already familiar with <a href="http://blog.macromates.com/">TextMate</a>.  Well, after six years of waiting the highly anticipated sequel is out, as open source software.  Kudos to Allan Odgaard for sticking with it for so long, though many have theorized (myself included) that the project was basically being given up on, a la <a href="https://en.wikipedia.org/wiki/Duke_Nukem_Forever">Duke Nukem Forever</a>.</p>
 
 <p>Well, after a few weeks it looks like the <a href="https://github.com/textmate/textmate">Github project</a> is alive and kicking, with tons of fixes and enhancements being added.  Check it out for yourself and see what you think.  I do highly recommend installing  <a href="http://mxcl.github.com/homebrew/">Homebrew</a> as it makes installing TextMate&#8217;s dependencies a cinch.</p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post">
-	<div class="meta">
-		<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-08-26T18:06:00-04:00" pubdate data-updated="true">Aug 26<span>th</span>, 2012</time></div>
-		<div class="tags">
-
-
-	<a class='category' href='/blog/categories/trading/'>trading</a>
-
-
-</div>
-		
-	</div>
-	<h1 class="title"><a href="/blog/2012/08/26/tried-algo-trading/">Tried Algo Trading, Losses Ensue</a></h1>
-	<div class="entry-content">
-		<p>About a year ago I had some extra time on my hands and decided I&#8217;d take a crack at creating an <a href="http://en.wikipedia.org/wiki/Algorithmic_trading">algorithmic trading</a> strategy.  <a href="http://individuals.interactivebrokers.com/en/main.php">Interactive Brokers</a> offers an API which you can use to gather data and execute trades, though you will have to plop down the $10k minimum for an account.</p>
-
-<p>Here&#8217;s a quick pitch of the idea I was executing.  Long story short is that it did horribly, (maybe because I didn&#8217;t want to make it do intraday trading, reason <a href="http://blogs.wsj.com/marketbeat/2012/08/02/knight-capital-trading-error-cost-firm-440-million/">here)</a> but if you&#8217;re interested in this stuff I&#8217;ve dumped all of my code out to <a href="https://github.com/kwangbkim/IBAlgoTrader">GitHub</a>.</p>
-
-<h2>Overview</h2>
-
-<p>On any given day most of the global markets are generally correlated.  Not only Asia/US/Europe, but emerging countries as well like Brazil and India.  But at the same time each individual country&#8217;s financial market is affected by it&#8217;s own inner dynamics.  Things like domestic and international politics can change a single economy in a way that differs from the rest of the world.</p>
-
-<p>The idea is to track each individual country&#8217;s market and compare it to some global world index.  I used Vanguard&#8217;s <a href="https://personal.vanguard.com/us/funds/snapshot?FundId=3141&amp;FundIntExt=INT">Total World Stock ETF</a>.  The price data I collected was daily and weekly.  By gathering price data based on different time intervals, I can calculate a country&#8217;s correlation to the global index over multiple time periods.  When there&#8217;s a large difference between the long term (weekly) and short term (daily) correlations, that denotes an event occurred in a particular country&#8217;s domestic market and a trade should be made.</p>
-
-<h2>Main pitfalls</h2>
-
-<ul>
-<li>International events that affect multiple countries at the same time, triggering multiple trade alerts.  Not good because the goal is to make separate trades that are uncorrelated with each other to increase diversification and reduce variance.</li>
-<li>It seemed like some events could just be rumors and dissipates quickly, or the market is just too efficient.  By the time my program noticed a correlation shift it would be too late and I&#8217;d lose money.</li>
-</ul>
-
-
-<p>The true moral of the story here is that retail trading should be done for fun, not for profit!</p>
 
 		
 		
