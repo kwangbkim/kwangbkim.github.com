@@ -7,7 +7,7 @@
 	<meta name="author" content="Kwang B. Kim">
 
 	
-	<meta name="description" content="I think in todays economic climate there&#8217;s a rather strong stigma against liberal arts degrees and what relevance it has towards getting a job &hellip;">
+	<meta name="description" content="After a week of coding and a month of banging my head on the table trying to deploy, I finally released this. Yes, yes, it&#8217;s not much. But it &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -63,6 +63,67 @@
 			
 			<div class="mid-col-container">
 				<div id="content" class="inner">
+
+
+    <article class="post">
+	<div class="meta">
+		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-23T19:49:00-04:00" pubdate data-updated="true">Mar 23<span>rd</span>, 2013</time></div>
+		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/django/'>django</a>, <a class='category' href='/blog/categories/python-/'>python,</a>, <a class='category' href='/blog/categories/web-/'>web,</a>
+
+
+</div>
+		
+	</div>
+	<h1 class="title"><a href="/blog/2013/03/23/python-slash-django-first-impressions/">Python/Django First Impressions</a></h1>
+	<div class="entry-content">
+		<p>After a week of coding and a month of banging my head on the table trying to deploy, I finally released <a href="http://correylater-kwangbkim.dotcloud.com/correlations/">this</a>.  Yes, yes, it&#8217;s not much.  But it feels good to finally get something out there.</p>
+
+<p>Some random thoughts as someone new to Python/Django/Web Development:</p>
+
+<h4>Python, Very Readable</h4>
+
+<p>I feel like Python has perhaps the lowest barrier of entry in terms of just learning to code in the language.  Coming from Java/C#, you can pretty much still code in that style using Python&#8217;s simple syntax.  Of course, you&#8217;d be missing out on all of Python&#8217;s cool and powerful features, but you&#8217;d be up and running quickly.</p>
+
+<h4>Libraries and Tools, Everywhere</h4>
+
+<p>If there is something you want to do in Python you can place a safe bet that there exists something that already does it.  A couple things I found that were really useful are <a href="https://pypi.python.org/pypi/pep8">pep8</a> and <a href="https://pypi.python.org/pypi/virtualenv">virtualenv</a>.  Pep8 checks the style of your code because Python is big on good style and readability.  Virtualenv lets you run and test multiple versions of Python.</p>
+
+<h4>Django</h4>
+
+<p>Using Django is pretty sweet.  Comparing it to Rails, you can probably start up a new project in Rails faster.  But the advantage of Django is being able to use the Python language, which already has lots of stuff specifically for scientific computing, if you&#8217;re into that.  And it&#8217;s a lot easier to read than Ruby.</p>
+
+<p>One word of advice, if you&#8217;re doing Django on your local box, do yourself a favor and set up all your stuff as you would in production.  Meaning if you&#8217;re running Postgres in production, make sure you install it on your local box.  Don&#8217;t don&#8217;t don&#8217;t use SQLite!  It&#8217;s a trap as SQLite is incredibly easy to configure, but you will be pulling your hair out later when you want to release something in the real world.</p>
+
+<h4>Deploying</h4>
+
+<p>My project uses the Python libraries <a href="http://www.scipy.org/">SciPy</a> and <a href="http://matplotlib.org/">matplotlib</a> for graphing and crunching numbers.  I spent a solid three weeks trying to deploy everything to <a href="http://www.heroku.com/">Heroku</a>.  Heroku downloads and installs all the prerequisites for your project.  But it had trouble installing SciPy and matplotlib.  It does offer something called <a href="https://devcenter.heroku.com/articles/buildpacks">buildpacks</a>, which allows you to do pretty much anything before you deploy.</p>
+
+<p>After trying Heroku for a while I gave up and moved to <a href="https://www.dotcloud.com/">dotCloud</a>.  I&#8217;d say it&#8217;s much more Python friendly and installing everything was a breeze.  It only took a couple lines of code to overcome the issue that Heroku was giving me, namely that I was missing the gfortran and libatlas libraries.</p>
+
+<h4>On Web Development</h4>
+
+<p>I think web development can be a little daunting because it requires a large horizontal breadth of knowledge.  Just for this one project I used HTML, CSS, Python, Django, Pip, Virtualenv, matplotlib, scipy, numpy, dotCloud, postgres, nginx, YAML, markdown and probably a bunch of other stuff.  Knowing each individual component is perhaps not very difficult, but understanding everything at once will probably take some time.</p>
+
+		
+		
+	</div>
+
+</article>
 
 
     <article class="post">
@@ -231,49 +292,6 @@
 <p>The bottom two Vanguard items assert that I made $10,500 from US tax exempt treasuries (low risk, low return government bonds)  Also, emphasis belongs to <em>tax exempt</em>, how can you be taxed on a tax exempt security?.  But aside from that suppose  it were taxed, let&#8217;s say those funds averaged %3 annual returns this year (a generous approximation).  That would mean that I have over $350,000 invested between the two funds.  Hm let me check my accounts&#8230; nope :)</p>
 
 <p>While I&#8217;m hopeful this will all get sorted out neatly, I&#8217;m having trouble understanding exactly how this happened.  For full disclosure I used TurboTax, which is usually a breeze especially when your tax situation isn&#8217;t complex (i.e. no income other than from your job).  So perhaps something happened there, but either way the next few weeks will be interesting.</p>
-
-		
-		
-	</div>
-
-</article>
-
-
-    <article class="post">
-	<div class="meta">
-		<div class="date">
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-12-06T21:55:00-05:00" pubdate data-updated="true">Dec 6<span>th</span>, 2012</time></div>
-		<div class="tags">
-
-
-	<a class='category' href='/blog/categories/apple/'>apple</a>, <a class='category' href='/blog/categories/china/'>china</a>, <a class='category' href='/blog/categories/foreign-labor/'>foreign labor</a>
-
-
-</div>
-		
-	</div>
-	<h1 class="title"><a href="/blog/2012/12/06/made-in-the-usa/">Made in the USA</a></h1>
-	<div class="entry-content">
-		<p>&#8220;Made in the USA&#8221; seems to be all the rage these days.  For instance, today Apple announced that they&#8217;ll start <a href="http://www.latimes.com/business/la-fi-apple-manufacturing-20121207,0,2720461.story">building Macs in the USA</a> again next year.  I think the underlying principle here is intuitive enough, there has been plenty of bad press regarding the conditions of foreign factories making US products.  <a href="https://www.youtube.com/watch?v=M5uYCWVfuPQ">Nike</a> is another company that comes to mind.  The stories detail sweatshop conditions, minimal salaries and long hours, in some cases even leading to <a href="https://en.wikipedia.org/wiki/Foxconn_suicides">suicides</a>.</p>
-
-<p>Imagine having to walk into these factories every day, working super long shifts for little pay and no prospects for growth.  Miserable right?  So the consensus becomes let&#8217;s take away those awful jobs and bring them back to the US where they belong.</p>
-
-<p>The problem is, what we think are horrible conditions (which they are) are locally considered really, really good in comparison to the domestic competition.  According to  <a href="http://www.theatlantic.com/magazine/archive/2012/12/mr-china-comes-to-america/309160/?single_page=true">this</a> nice article at the Atlantic :</p>
-
-<blockquote><p>If you are looking for the most-gruesome factory conditions in China, you don’t go to a  multinational giant like Foxconn, which has to deal with Western customers and pay at least some attention to appearances and laws. You go instead to the small, ramshackle, often unregulated workshops, often away from the big cities, where conditions are as inefficient and sometimes as unsafe as they were when China was just beginning to industrialize.</p></blockquote>
-
-<p>I agree with the overall sentiment of making products domestically.  It is an altruistic notion that we demand our products be made in safe, fair environments.  But if our long term goal is to help foreign countries improve their own working conditions, simply taking jobs away and moving them back to the US may be counterproductive.  As in, it lowers the overall supply of jobs, thereby weakening the bargaining power of the labor force, and making it easier for the sweatshops that we hate so much to subsist.</p>
 
 		
 		

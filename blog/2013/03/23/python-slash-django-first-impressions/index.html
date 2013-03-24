@@ -1,0 +1,145 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Python/Django First Impressions - Kwang B. Kim</title>
+	<meta name="author" content="Kwang B. Kim">
+
+	
+	<meta name="description" content="After a week of coding and a month of banging my head on the table trying to deploy, I finally released this. Yes, yes, it&#8217;s not much. But it &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="" rel="alternate" title="Kwang B. Kim" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Exo:Light200,400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:Book300,400,700' rel='stylesheet' type='text/css'>
+	
+</head>
+
+<body>
+	<div class="container">
+		<div class="left-col">
+			<header id="header" class="inner"><div class="profilepic">	
+	<img src="/images/Untitled.png" alt="Profile Picture" style="width: 160px;">
+</div>
+<h1><a href="/">Kwang B. Kim</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+	<li><a href="/about">About</a></li>
+</ul>
+</nav>
+<br/>
+<h3 class="alignleft"></h3>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		
+		
+		<a class="github" href="https://github.com/kwangbkim" title="GitHub">GitHub</a>
+		
+		
+		<a class="linkedin" href="http://www.linkedin.com/pub/kwang-kim/a/18a/474">LinkedIn</a>
+		
+		
+		
+		
+	</div>
+</nav>
+
+</header>
+		</div>		
+		<div class="mid-col">
+			
+				
+			
+			<div class="mid-col-container">
+				<div id="content" class="inner"><article class="post">
+	<h1 class="title">Python/Django First Impressions</h1>
+	<div class="entry-content"><p>After a week of coding and a month of banging my head on the table trying to deploy, I finally released <a href="http://correylater-kwangbkim.dotcloud.com/correlations/">this</a>.  Yes, yes, it&#8217;s not much.  But it feels good to finally get something out there.</p>
+
+<p>Some random thoughts as someone new to Python/Django/Web Development:</p>
+
+<h4>Python, Very Readable</h4>
+
+<p>I feel like Python has perhaps the lowest barrier of entry in terms of just learning to code in the language.  Coming from Java/C#, you can pretty much still code in that style using Python&#8217;s simple syntax.  Of course, you&#8217;d be missing out on all of Python&#8217;s cool and powerful features, but you&#8217;d be up and running quickly.</p>
+
+<h4>Libraries and Tools, Everywhere</h4>
+
+<p>If there is something you want to do in Python you can place a safe bet that there exists something that already does it.  A couple things I found that were really useful are <a href="https://pypi.python.org/pypi/pep8">pep8</a> and <a href="https://pypi.python.org/pypi/virtualenv">virtualenv</a>.  Pep8 checks the style of your code because Python is big on good style and readability.  Virtualenv lets you run and test multiple versions of Python.</p>
+
+<h4>Django</h4>
+
+<p>Using Django is pretty sweet.  Comparing it to Rails, you can probably start up a new project in Rails faster.  But the advantage of Django is being able to use the Python language, which already has lots of stuff specifically for scientific computing, if you&#8217;re into that.  And it&#8217;s a lot easier to read than Ruby.</p>
+
+<p>One word of advice, if you&#8217;re doing Django on your local box, do yourself a favor and set up all your stuff as you would in production.  Meaning if you&#8217;re running Postgres in production, make sure you install it on your local box.  Don&#8217;t don&#8217;t don&#8217;t use SQLite!  It&#8217;s a trap as SQLite is incredibly easy to configure, but you will be pulling your hair out later when you want to release something in the real world.</p>
+
+<h4>Deploying</h4>
+
+<p>My project uses the Python libraries <a href="http://www.scipy.org/">SciPy</a> and <a href="http://matplotlib.org/">matplotlib</a> for graphing and crunching numbers.  I spent a solid three weeks trying to deploy everything to <a href="http://www.heroku.com/">Heroku</a>.  Heroku downloads and installs all the prerequisites for your project.  But it had trouble installing SciPy and matplotlib.  It does offer something called <a href="https://devcenter.heroku.com/articles/buildpacks">buildpacks</a>, which allows you to do pretty much anything before you deploy.</p>
+
+<p>After trying Heroku for a while I gave up and moved to <a href="https://www.dotcloud.com/">dotCloud</a>.  I&#8217;d say it&#8217;s much more Python friendly and installing everything was a breeze.  It only took a couple lines of code to overcome the issue that Heroku was giving me, namely that I was missing the gfortran and libatlas libraries.</p>
+
+<h4>On Web Development</h4>
+
+<p>I think web development can be a little daunting because it requires a large horizontal breadth of knowledge.  Just for this one project I used HTML, CSS, Python, Django, Pip, Virtualenv, matplotlib, scipy, numpy, dotCloud, postgres, nginx, YAML, markdown and probably a bunch of other stuff.  Knowing each individual component is perhaps not very difficult, but understanding everything at once will probably take some time.</p>
+</div>
+
+</article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+</div>
+			</div>
+			<footer id="footer" class="inner">Copyright &copy; 2013
+
+    Kwang B. Kim
+
+
+Design credit: <a href="http://shashankmehta.in/archive/2012/greyshade.html">Shashank Mehta</a></footer>
+			<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-33849191-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+
+
+		</div>
+	</div>
+</body>
+</html>
