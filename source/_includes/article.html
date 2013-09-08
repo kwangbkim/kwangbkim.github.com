@@ -1,18 +1,17 @@
-{% if index %}
-	<div class="meta">
-		<div class="date">{% include post/date.html %}{{ time }}</div>
-		<div class="tags">{% include post/categories.html %}</div>
-		{% if site.disqus_short_name and site.disqus_show_comment_count == true %}
-			<span class="comments"><a href="{{ root_url }}{{ post.url }}{{ page.url }}#disqus_thread">Comments</a></span>
-		{% endif %}
-	</div>
-	<h1 class="title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
-	<div class="entry-content">
-		{{ content | excerpt }}
-		{% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
-		{% if excerpted == 'true' %}<a href="{{ root_url }}{{ post.url }}" class="more-link">{{ site.excerpt_link }}</a>{% endif %}
-	</div>
-{% else %}
-	<h1 class="title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
-	<div class="entry-content">{{ content }}</div>
-{% endif %}
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="{{ root_url }}{{ page.url }}">{{ page.title }}</a></h1>
+		<time>{{ page.date | date: "%d %B %Y" }}</time>
+	</header>
+		<div class="content">
+			{{ content }}
+		</div>
+	<footer>
+		{% include post/categories.html %}
+	
+	{% if page.source.url %}via <a href="{{ page.source.url }}">{{ page.source.title }}</a>{% endif %}
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->

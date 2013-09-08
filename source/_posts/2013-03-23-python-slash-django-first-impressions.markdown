@@ -3,7 +3,7 @@ layout: post
 title: "Python/Django First Impressions"
 date: 2013-03-23 19:49
 comments: false
-categories: web, python, django
+categories: [web, python, django]
 ---
 
 After a week of coding and a month of banging my head on the table trying to deploy, I finally released [this](http://correylater-kwangbkim.dotcloud.com/correlations/).  Yes, yes, it's not much.  But it feels good to finally get something out there.

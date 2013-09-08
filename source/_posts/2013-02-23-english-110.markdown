@@ -3,7 +3,7 @@ layout: post
 title: "English 110"
 date: 2013-02-24 12:16
 comments: false
-categories: college
+categories: [college, liberal arts]
 ---
 
 I think in todays economic climate there's a rather strong stigma against liberal arts degrees and what relevance it has towards getting a job in the real world.  I have no views one way or the other.  But, as an engineering major I see the irony in remembering basic English as my favorite class.

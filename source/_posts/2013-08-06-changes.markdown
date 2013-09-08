@@ -3,7 +3,7 @@ layout: post
 title: "Changes"
 date: 2013-08-06 20:35
 comments: false
-categories: nyc, moving
+categories: [nyc, moving]
 ---
 
 This is long overdue, but the past few months have been hectic.  The main reason being I've transferred from my company's Hartford, CT office to Manhattan.

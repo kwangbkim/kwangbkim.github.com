@@ -3,18 +3,18 @@ layout: post
 title: "IRS: You owe $22,948"
 date: 2012-12-15 14:12
 comments: false
-categories: 
+categories: taxes
 ---
 
 Imagine lounging around on a typical weekend afternoon browsing through paper mail when you come upon this nice letter, courtesy of our IRS.  
 
-![](/images/letter.jpg)
+![](/images/letter.jpg " ")
 
 Accurate portrayal of my reaction can be found [here](http://www.youtube.com/watch?v=NefM2gVo9mw).
 
 The photo below is a sample of what they view as unclaimed income.
 
-![](/images/statement.png)
+![](/images/statement.png " ")
 
 The first two items are from when I was playing around with algorithmic trading.  I wrote a little bit about it [here](http://kwangbkim.com/blog/2012/08/26/tried-algo-trading/).  Except of course, I *lost* money.  Instead they are claiming that every single purchase I made was pure profit.  Put in other words, they claim I bought every security for nothing and so when I sold it everything was income.  If only there was a way!
 
