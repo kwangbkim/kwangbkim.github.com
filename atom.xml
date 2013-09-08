@@ -1,24 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Kwang B. Kim]]></title>
-  <link href="http://kwangbkim.github.com/atom.xml" rel="self"/>
-  <link href="http://kwangbkim.github.com/"/>
-  <updated>2013-08-06T21:45:40-04:00</updated>
-  <id>http://kwangbkim.github.com/</id>
-  <author>
-    <name><![CDATA[Kwang B. Kim]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+	<title><![CDATA[Kwang B. Kim]]></title>
+	<link href="http://kwangbkim.github.com/atom.xml" rel="self"/>
+	<link href="http://kwangbkim.github.com/"/>
+	<updated>2013-09-08T19:03:25-04:00</updated>
+	<id>http://kwangbkim.github.com/</id>
+	<author>
+		<name><![CDATA[Kwang B. Kim]]></name>
+		
+	</author>
+	<generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Changes]]></title>
-    <link href="http://kwangbkim.github.com/blog/2013/08/06/changes/"/>
-    <updated>2013-08-06T20:35:00-04:00</updated>
-    <id>http://kwangbkim.github.com/blog/2013/08/06/changes</id>
-    <content type="html"><![CDATA[<p>This is long overdue, but the past few months have been hectic.  The main reason being I&#8217;ve transferred from my company&#8217;s Hartford, CT office to Manhattan.</p>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Named Parameters for Readability]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2013/09/08/named-parameters-for-readability/"/>
+		<updated>2013-09-08T18:11:00-04:00</updated>
+		<id>http://kwangbkim.github.com/blog/2013/09/08/named-parameters-for-readability</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>Here&#8217;s a nice, <a href="http://mat-mcloughlin.net/2013/08/27/using-named-parameters-for-constants.html">short post</a> I enjoyed about how to make your code more readable.  I think this is particular useful for the languages out there without a big IDE.  In .NET, using solid parameter names mitigates the usefulness of this because of intellisense.  But, overall I&#8217;ll be trying to do this more in my own code.</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Changes]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2013/08/06/changes/"/>
+		<updated>2013-08-06T20:35:00-04:00</updated>
+		<id>http://kwangbkim.github.com/blog/2013/08/06/changes</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>This is long overdue, but the past few months have been hectic.  The main reason being I&#8217;ve transferred from my company&#8217;s Hartford, CT office to Manhattan.</p>
 
 <p>The moving process itself was quite smooth and went without a hitch.  If you&#8217;re thinking of moving here and want to chat definitely shoot me an email.  In the meantime here&#8217;s a couple of things and thoughts that might help.</p>
 
@@ -37,15 +63,24 @@
 <h4>Dirty old boroughs</h4>
 
 <p>Between my bubble boy allergies, bad air quality and loathe for walking I immediately got sick upon arriving.  When you first get here try not to go overboard and do too much too fast.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Python/Django First Impressions]]></title>
-    <link href="http://kwangbkim.github.com/blog/2013/03/23/python-slash-django-first-impressions/"/>
-    <updated>2013-03-23T19:49:00-04:00</updated>
-    <id>http://kwangbkim.github.com/blog/2013/03/23/python-slash-django-first-impressions</id>
-    <content type="html"><![CDATA[<p>After a week of coding and a month of banging my head on the table trying to deploy, I finally released <a href="http://correylater-kwangbkim.dotcloud.com/correlations/">this</a>.  Yes, yes, it&#8217;s not much.  But it feels good to finally get something out there.</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Python/Django First Impressions]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2013/03/23/python-slash-django-first-impressions/"/>
+		<updated>2013-03-23T19:49:00-04:00</updated>
+		<id>http://kwangbkim.github.com/blog/2013/03/23/python-slash-django-first-impressions</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>After a week of coding and a month of banging my head on the table trying to deploy, I finally released <a href="http://correylater-kwangbkim.dotcloud.com/correlations/">this</a>.  Yes, yes, it&#8217;s not much.  But it feels good to finally get something out there.</p>
 
 <p>Some random thoughts as someone new to Python/Django/Web Development:</p>
 
@@ -72,15 +107,24 @@
 <h4>On Web Development</h4>
 
 <p>I think web development can be a little daunting because it requires a large horizontal breadth of knowledge.  Just for this one project I used HTML, CSS, Python, Django, Pip, Virtualenv, matplotlib, scipy, numpy, dotCloud, postgres, nginx, YAML, markdown and probably a bunch of other stuff.  Knowing each individual component is perhaps not very difficult, but understanding everything at once will probably take some time.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[English 110]]></title>
-    <link href="http://kwangbkim.github.com/blog/2013/02/24/english-110/"/>
-    <updated>2013-02-24T12:16:00-05:00</updated>
-    <id>http://kwangbkim.github.com/blog/2013/02/24/english-110</id>
-    <content type="html"><![CDATA[<p>I think in todays economic climate there&#8217;s a rather strong stigma against liberal arts degrees and what relevance it has towards getting a job in the real world.  I have no views one way or the other.  But, as an engineering major I see the irony in remembering basic English as my favorite class.</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[English 110]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2013/02/24/english-110/"/>
+		<updated>2013-02-24T12:16:00-05:00</updated>
+		<id>http://kwangbkim.github.com/blog/2013/02/24/english-110</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>I think in todays economic climate there&#8217;s a rather strong stigma against liberal arts degrees and what relevance it has towards getting a job in the real world.  I have no views one way or the other.  But, as an engineering major I see the irony in remembering basic English as my favorite class.</p>
 
 <p>Up until college, from pre-k to high school, I pretty much saw any non math or science class as a necessary evil.  Subjects like English or History didn&#8217;t interest me, I&#8217;d always end up going through the motions, making sure I got my A or B and moved on to the next thing.</p>
 
@@ -91,30 +135,48 @@
 <p>English 110 got me thinking critically about writing for the first time.  Then that transitioned to other stuff like music and art.  I don&#8217;t mean to downplay any of my other classes.  I&#8217;ll always see programming, math and science as my thing.  But just having that other perspective is nice.</p>
 
 <p>I don&#8217;t think I really fully understood the above until a few years after I graduated.  And by then I lost contact with just about every professor.  So if you&#8217;re out there and reading this John, thanks.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Zipline Open Sourced]]></title>
-    <link href="http://kwangbkim.github.com/blog/2013/02/03/zipline-open-sourced/"/>
-    <updated>2013-02-03T13:34:00-05:00</updated>
-    <id>http://kwangbkim.github.com/blog/2013/02/03/zipline-open-sourced</id>
-    <content type="html"><![CDATA[<p><a href="https://www.quantopian.com/">Quantopian</a> is an algorithmic trading platform provider who released their <a href="https://github.com/quantopian/zipline">backtesting platform called Zipline</a> to the public on GitHub.  I don&#8217;t want to sound like a broken record player regarding <a href="http://kwangbkim.com/blog/2012/09/21/quant-trading-for-the-public/">my thoughts</a> on openly available algorithmic trading, so suffice it to say from a technology standpoint it looks pretty cool.</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Zipline Open Sourced]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2013/02/03/zipline-open-sourced/"/>
+		<updated>2013-02-03T13:34:00-05:00</updated>
+		<id>http://kwangbkim.github.com/blog/2013/02/03/zipline-open-sourced</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p><a href="https://www.quantopian.com/">Quantopian</a> is an algorithmic trading platform provider who released their <a href="https://github.com/quantopian/zipline">backtesting platform called Zipline</a> to the public on GitHub.  I don&#8217;t want to sound like a broken record player regarding <a href="http://kwangbkim.com/blog/2012/09/21/quant-trading-for-the-public/">my thoughts</a> on openly available algorithmic trading, so suffice it to say from a technology standpoint it looks pretty cool.</p>
 
 <p>It should also be noted that Quantopian is backed by <a href="http://www.getcollc.com/">Getco</a>, an algorithmic trading firm that makes tons of cash and always seems to be at odds with market regulators.  This has raised some well deserved suspicions from the community at <a href="http://news.ycombinator.com/item?id=5107045">Hacker News</a>.  To make a bad analogy, this is like McDonalds opening up a chain of weight-loss gyms with freely available Big Macs for all.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Orson Welles, Biased Bios]]></title>
-    <link href="http://kwangbkim.github.com/blog/2013/01/08/orson-welles/"/>
-    <updated>2013-01-08T21:51:00-05:00</updated>
-    <id>http://kwangbkim.github.com/blog/2013/01/08/orson-welles</id>
-    <content type="html"><![CDATA[<p>I fully admit I know little to nothing about art, or any of its related businesses.  But I&#8217;m particularly interested in learning about the process and thought that goes into making it.  As a software developer I think there&#8217;s a certain connection between the two.  Because whether you&#8217;re painting, making a movie, or creating an algorithm, you start from a point of ambiguity.  That is, you start off with a &#8216;blank sheet&#8217;, and if things go well somehow your head fills it with whatever you were looking for.</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Orson Welles, Biased Bios]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2013/01/08/orson-welles/"/>
+		<updated>2013-01-08T21:51:00-05:00</updated>
+		<id>http://kwangbkim.github.com/blog/2013/01/08/orson-welles</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>I fully admit I know little to nothing about art, or any of its related businesses.  But I&#8217;m particularly interested in learning about the process and thought that goes into making it.  As a software developer I think there&#8217;s a certain connection between the two.  Because whether you&#8217;re painting, making a movie, or creating an algorithm, you start from a point of ambiguity.  That is, you start off with a &#8216;blank sheet&#8217;, and if things go well somehow your head fills it with whatever you were looking for.</p>
 
 <p>So, while randomly perusing the local library last month, I picked this book up on a whim.  My knowledge on Welles prior to reading this book was quite minimal, I had vaguely heard of him and knew he was involved in films somehow.</p>
 
-<p><img src="http://kwangbkim.github.com/images/higham.JPG" alt="" /></p>
+<p><img src="http://kwangbkim.github.com/images/higham.JPG" title=" " alt="" /></p>
 
 <p>What really jumped out of the pages was Welles&#8217;s staggering work ethic.  He would consistently take on multiple director positions, radio shows and movie roles at the same time.  At certain points his schedule bordered on insanity.  He would fly off to film a few scenes of a movie for a few weeks, leave to a completely different continent to direct some more scenes of a different movie, then leave to act in a role of a third movie in order to make some money to help pay off the costs of the first movie.  Confused yet?</p>
 
@@ -123,38 +185,56 @@
 <p>Unfortunately there wasn&#8217;t much insight on the details and thought processes of Welles&#8217;s films.  The main thing I took away from a software point of view, is that when everyone is great at coding, it&#8217;ll be those ancillary soft skills that determine who the best employees are.  Because when everyone is smart, only those who can communicate well and have the discipline to ship things on time will be the most sought after.</p>
 
 <p>On a side note, over reading this bio the author was quite content on downplaying the successes of Welles&#8217;s while focusing on the negatives and failures.  I had always assumed biographies were meant to be more scientific, portraying someone else&#8217;s life in a completely bipartisan manner.  Whether money or contempt played a factor I don&#8217;t know, but the whole thing just seemed a little odd.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[IRS: You owe $22,948]]></title>
-    <link href="http://kwangbkim.github.com/blog/2012/12/15/irs-you-owe-23-dollars/"/>
-    <updated>2012-12-15T14:12:00-05:00</updated>
-    <id>http://kwangbkim.github.com/blog/2012/12/15/irs-you-owe-23-dollars</id>
-    <content type="html"><![CDATA[<p>Imagine lounging around on a typical weekend afternoon browsing through paper mail when you come upon this nice letter, courtesy of our IRS.</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[IRS: You owe $22,948]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2012/12/15/irs-you-owe-23-dollars/"/>
+		<updated>2012-12-15T14:12:00-05:00</updated>
+		<id>http://kwangbkim.github.com/blog/2012/12/15/irs-you-owe-23-dollars</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>Imagine lounging around on a typical weekend afternoon browsing through paper mail when you come upon this nice letter, courtesy of our IRS.</p>
 
-<p><img src="http://kwangbkim.github.com/images/letter.jpg" alt="" /></p>
+<p><img src="http://kwangbkim.github.com/images/letter.jpg" title=" " alt="" /></p>
 
 <p>Accurate portrayal of my reaction can be found <a href="http://www.youtube.com/watch?v=NefM2gVo9mw">here</a>.</p>
 
 <p>The photo below is a sample of what they view as unclaimed income.</p>
 
-<p><img src="http://kwangbkim.github.com/images/statement.png" alt="" /></p>
+<p><img src="http://kwangbkim.github.com/images/statement.png" title=" " alt="" /></p>
 
 <p>The first two items are from when I was playing around with algorithmic trading.  I wrote a little bit about it <a href="http://kwangbkim.com/blog/2012/08/26/tried-algo-trading/">here</a>.  Except of course, I <em>lost</em> money.  Instead they are claiming that every single purchase I made was pure profit.  Put in other words, they claim I bought every security for nothing and so when I sold it everything was income.  If only there was a way!</p>
 
 <p>The bottom two Vanguard items assert that I made $10,500 from US tax exempt treasuries (low risk, low return government bonds)  Also, emphasis belongs to <em>tax exempt</em>, how can you be taxed on a tax exempt security?.  But aside from that suppose  it were taxed, let&#8217;s say those funds averaged %3 annual returns this year (a generous approximation).  That would mean that I have over $350,000 invested between the two funds.  Hm let me check my accounts&#8230; nope :)</p>
 
 <p>While I&#8217;m hopeful this will all get sorted out neatly, I&#8217;m having trouble understanding exactly how this happened.  For full disclosure I used TurboTax, which is usually a breeze especially when your tax situation isn&#8217;t complex (i.e. no income other than from your job).  So perhaps something happened there, but either way the next few weeks will be interesting.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Made in the USA]]></title>
-    <link href="http://kwangbkim.github.com/blog/2012/12/06/made-in-the-usa/"/>
-    <updated>2012-12-06T21:55:00-05:00</updated>
-    <id>http://kwangbkim.github.com/blog/2012/12/06/made-in-the-usa</id>
-    <content type="html"><![CDATA[<p>&#8220;Made in the USA&#8221; seems to be all the rage these days.  For instance, today Apple announced that they&#8217;ll start <a href="http://www.latimes.com/business/la-fi-apple-manufacturing-20121207,0,2720461.story">building Macs in the USA</a> again next year.  I think the underlying principle here is intuitive enough, there has been plenty of bad press regarding the conditions of foreign factories making US products.  <a href="https://www.youtube.com/watch?v=M5uYCWVfuPQ">Nike</a> is another company that comes to mind.  The stories detail sweatshop conditions, minimal salaries and long hours, in some cases even leading to <a href="https://en.wikipedia.org/wiki/Foxconn_suicides">suicides</a>.</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Made in the USA]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2012/12/06/made-in-the-usa/"/>
+		<updated>2012-12-06T21:55:00-05:00</updated>
+		<id>http://kwangbkim.github.com/blog/2012/12/06/made-in-the-usa</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>&#8220;Made in the USA&#8221; seems to be all the rage these days.  For instance, today Apple announced that they&#8217;ll start <a href="http://www.latimes.com/business/la-fi-apple-manufacturing-20121207,0,2720461.story">building Macs in the USA</a> again next year.  I think the underlying principle here is intuitive enough, there has been plenty of bad press regarding the conditions of foreign factories making US products.  <a href="https://www.youtube.com/watch?v=M5uYCWVfuPQ">Nike</a> is another company that comes to mind.  The stories detail sweatshop conditions, minimal salaries and long hours, in some cases even leading to <a href="https://en.wikipedia.org/wiki/Foxconn_suicides">suicides</a>.</p>
 
 <p>Imagine having to walk into these factories every day, working super long shifts for little pay and no prospects for growth.  Miserable right?  So the consensus becomes let&#8217;s take away those awful jobs and bring them back to the US where they belong.</p>
 
@@ -163,37 +243,64 @@
 <blockquote><p>If you are looking for the most-gruesome factory conditions in China, you don’t go to a  multinational giant like Foxconn, which has to deal with Western customers and pay at least some attention to appearances and laws. You go instead to the small, ramshackle, often unregulated workshops, often away from the big cities, where conditions are as inefficient and sometimes as unsafe as they were when China was just beginning to industrialize.</p></blockquote>
 
 <p>I agree with the overall sentiment of making products domestically.  It is an altruistic notion that we demand our products be made in safe, fair environments.  But if our long term goal is to help foreign countries improve their own working conditions, simply taking jobs away and moving them back to the US may be counterproductive.  As in, it lowers the overall supply of jobs, thereby weakening the bargaining power of the labor force, and making it easier for the sweatshops that we hate so much to subsist.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Todo Apps. Are. Everywhere.]]></title>
-    <link href="http://kwangbkim.github.com/blog/2012/11/11/todo-apps-are-everywhere/"/>
-    <updated>2012-11-11T17:14:00-05:00</updated>
-    <id>http://kwangbkim.github.com/blog/2012/11/11/todo-apps-are-everywhere</id>
-    <content type="html"><![CDATA[<p>I read an interesting article on <a href="http://www.codinghorror.com/blog/">Jeff Atwood&#8217;s blog</a> regarding his thoughts on <a href="http://www.codinghorror.com/blog/2012/10/todont.html">Todo Apps</a> and how we sometimes go overboard trying to be super organized.  I&#8217;ve fallen for the Todo App trap multiple times myself, having used <a href="https://workflowy.com/">Workflowy</a> and <a href="http://culturedcode.com/things/">Things</a> to no avail.  They were both good apps, but at some point they each became too much of a hassle to maintain and it wasn&#8217;t worth the effort.</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Todo Apps. Are. Everywhere.]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2012/11/11/todo-apps-are-everywhere/"/>
+		<updated>2012-11-11T17:14:00-05:00</updated>
+		<id>http://kwangbkim.github.com/blog/2012/11/11/todo-apps-are-everywhere</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>I read an interesting article on <a href="http://www.codinghorror.com/blog/">Jeff Atwood&#8217;s blog</a> regarding his thoughts on <a href="http://www.codinghorror.com/blog/2012/10/todont.html">Todo Apps</a> and how we sometimes go overboard trying to be super organized.  I&#8217;ve fallen for the Todo App trap multiple times myself, having used <a href="https://workflowy.com/">Workflowy</a> and <a href="http://culturedcode.com/things/">Things</a> to no avail.  They were both good apps, but at some point they each became too much of a hassle to maintain and it wasn&#8217;t worth the effort.</p>
 
 <p>I guess what it comes down to is striking that delicate balance between being organized and actually getting stuff done.  Todo apps aren&#8217;t worthless, it&#8217;s just that if we spend all of our time finding and using one it ironically becomes detrimental to our own productivity.</p>
 
 <p>I think I&#8217;ve found a pretty good app in <a href="http://www.any.do/">Any.Do</a>.  It&#8217;s simple, intuitive and syncs easily between phone/computer/tablet etc.  I don&#8217;t put every little thing on it but it&#8217;s certainly nice to have around.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Octopress: Static Blogging]]></title>
-    <link href="http://kwangbkim.github.com/blog/2012/10/13/octopress-static-blogging/"/>
-    <updated>2012-10-13T15:48:00-04:00</updated>
-    <id>http://kwangbkim.github.com/blog/2012/10/13/octopress-static-blogging</id>
-    <content type="html"><![CDATA[<p>I&#8217;ve been running this blog for a few months now without giving proper credit to <a href="http://octopress.org/">Octopress</a>.  If you haven&#8217;t heard of it, Octopress is a website generator primarily for blogging, on top of the ruby <a href="https://github.com/mojombo/jekyll">jekyll framework</a>.  It&#8217;s easy to use (little to no Ruby experience required), is free and hooks into <a href="http://pages.github.com/">Github Hosting</a> (also free) quite nicely.  If you&#8217;re thinking about starting a site it&#8217;s worth checking out.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Childhood Nostalgia: NES Cartridge Cleaning]]></title>
-    <link href="http://kwangbkim.github.com/blog/2012/09/29/nes/"/>
-    <updated>2012-09-29T14:20:00-04:00</updated>
-    <id>http://kwangbkim.github.com/blog/2012/09/29/nes</id>
-    <content type="html"><![CDATA[<p>There was an <a href="http://www.mentalfloss.com/blogs/archives/142550">article</a> the other day analyzing the effectiveness of blowing into NES cartridges.  The conclusion they came to was that blowing did not help at all and any perceived improvement was due to the <a href="https://en.wikipedia.org/wiki/Placebo">placebo effect</a>.</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Octopress: Static Blogging]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2012/10/13/octopress-static-blogging/"/>
+		<updated>2012-10-13T15:48:00-04:00</updated>
+		<id>http://kwangbkim.github.com/blog/2012/10/13/octopress-static-blogging</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>I&#8217;ve been running this blog for a few months now without giving proper credit to <a href="http://octopress.org/">Octopress</a>.  If you haven&#8217;t heard of it, Octopress is a website generator primarily for blogging, on top of the ruby <a href="https://github.com/mojombo/jekyll">jekyll framework</a>.  It&#8217;s easy to use (little to no Ruby experience required), is free and hooks into <a href="http://pages.github.com/">Github Hosting</a> (also free) quite nicely.  If you&#8217;re thinking about starting a site it&#8217;s worth checking out.</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Childhood Nostalgia: NES Cartridge Cleaning]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2012/09/29/nes/"/>
+		<updated>2012-09-29T14:20:00-04:00</updated>
+		<id>http://kwangbkim.github.com/blog/2012/09/29/nes</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>There was an <a href="http://www.mentalfloss.com/blogs/archives/142550">article</a> the other day analyzing the effectiveness of blowing into NES cartridges.  The conclusion they came to was that blowing did not help at all and any perceived improvement was due to the <a href="https://en.wikipedia.org/wiki/Placebo">placebo effect</a>.</p>
 
 <p>To which I can only reply:
 <img src="http://kwangbkim.github.com/images/No.jpeg" alt="" /></p>
@@ -203,15 +310,24 @@
 <p>In my opinion, blowing into those cartridges was all part of the NES experience.  It was like a bonding ritual.  Where I grew up you were not cool until you had a routine that seemed to work more often than not.  You were also encouraged to try special moves during times of crisis.  If you could make an NES work long enough to beat Zelda and get through Contra (with or without the <a href="https://en.wikipedia.org/wiki/Konami_Code">Konami Code</a>) you were basically a legend.</p>
 
 <p>I think back to what it would have been like to sit around the NES, monotonically resetting the cartridge, hoping for a good connection.  It may have made the system work better and for longer.  But ironically, it would have been a whole lot less fun.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Quant Trading For The Public]]></title>
-    <link href="http://kwangbkim.github.com/blog/2012/09/21/quant-trading-for-the-public/"/>
-    <updated>2012-09-21T22:49:00-04:00</updated>
-    <id>http://kwangbkim.github.com/blog/2012/09/21/quant-trading-for-the-public</id>
-    <content type="html"><![CDATA[<p>Over the past few months I&#8217;ve noticed a couple start ups that offer the general public access to create their own algorithmic trading strategies.  One such startup I saw today on <a href="http://news.ycombinator.com/">Hacker News</a> is called <a href="https://quantblocks2.herokuapp.com/">Quant Blocks</a>.</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Quant Trading For The Public]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2012/09/21/quant-trading-for-the-public/"/>
+		<updated>2012-09-21T22:49:00-04:00</updated>
+		<id>http://kwangbkim.github.com/blog/2012/09/21/quant-trading-for-the-public</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>Over the past few months I&#8217;ve noticed a couple start ups that offer the general public access to create their own algorithmic trading strategies.  One such startup I saw today on <a href="http://news.ycombinator.com/">Hacker News</a> is called <a href="https://quantblocks2.herokuapp.com/">Quant Blocks</a>.</p>
 
 <h2></h2>
 
@@ -222,26 +338,44 @@
 <h2></h2>
 
 <p>The bottom line is don&#8217;t let this stop you from trading for fun.  But just like a casino, don&#8217;t bring more money than you can afford to lose.  Treat it as entertainment and don&#8217;t take it too seriously, or you might just end up at a road show listening to a semi-celebrity touting some new amazing money making invention.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[TextMate 2 On Github]]></title>
-    <link href="http://kwangbkim.github.com/blog/2012/09/05/textmate-2-on-github/"/>
-    <updated>2012-09-05T21:46:00-04:00</updated>
-    <id>http://kwangbkim.github.com/blog/2012/09/05/textmate-2-on-github</id>
-    <content type="html"><![CDATA[<p>If you have a Mac and are a developer chances are that you&#8217;re already familiar with <a href="http://blog.macromates.com/">TextMate</a>.  Well, after six years of waiting the highly anticipated sequel is out, as open source software.  Kudos to Allan Odgaard for sticking with it for so long, though many have theorized (myself included) that the project was basically being given up on, a la <a href="https://en.wikipedia.org/wiki/Duke_Nukem_Forever">Duke Nukem Forever</a>.</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[TextMate 2 On Github]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2012/09/05/textmate-2-on-github/"/>
+		<updated>2012-09-05T21:46:00-04:00</updated>
+		<id>http://kwangbkim.github.com/blog/2012/09/05/textmate-2-on-github</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>If you have a Mac and are a developer chances are that you&#8217;re already familiar with <a href="http://blog.macromates.com/">TextMate</a>.  Well, after six years of waiting the highly anticipated sequel is out, as open source software.  Kudos to Allan Odgaard for sticking with it for so long, though many have theorized (myself included) that the project was basically being given up on, a la <a href="https://en.wikipedia.org/wiki/Duke_Nukem_Forever">Duke Nukem Forever</a>.</p>
 
 <p>Well, after a few weeks it looks like the <a href="https://github.com/textmate/textmate">Github project</a> is alive and kicking, with tons of fixes and enhancements being added.  Check it out for yourself and see what you think.  I do highly recommend installing  <a href="http://mxcl.github.com/homebrew/">Homebrew</a> as it makes installing TextMate&#8217;s dependencies a cinch.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tried Algo Trading, Losses Ensue]]></title>
-    <link href="http://kwangbkim.github.com/blog/2012/08/26/tried-algo-trading/"/>
-    <updated>2012-08-26T18:06:00-04:00</updated>
-    <id>http://kwangbkim.github.com/blog/2012/08/26/tried-algo-trading</id>
-    <content type="html"><![CDATA[<p>About a year ago I had some extra time on my hands and decided I&#8217;d take a crack at creating an <a href="http://en.wikipedia.org/wiki/Algorithmic_trading">algorithmic trading</a> strategy.  <a href="http://individuals.interactivebrokers.com/en/main.php">Interactive Brokers</a> offers an API which you can use to gather data and execute trades, though you will have to plop down the $10k minimum for an account.</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Tried Algo Trading, Losses Ensue]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2012/08/26/tried-algo-trading/"/>
+		<updated>2012-08-26T18:06:00-04:00</updated>
+		<id>http://kwangbkim.github.com/blog/2012/08/26/tried-algo-trading</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>About a year ago I had some extra time on my hands and decided I&#8217;d take a crack at creating an <a href="http://en.wikipedia.org/wiki/Algorithmic_trading">algorithmic trading</a> strategy.  <a href="http://individuals.interactivebrokers.com/en/main.php">Interactive Brokers</a> offers an API which you can use to gather data and execute trades, though you will have to plop down the $10k minimum for an account.</p>
 
 <p>Here&#8217;s a quick pitch of the idea I was executing.  Long story short is that it did horribly, (maybe because I didn&#8217;t want to make it do intraday trading, reason <a href="http://blogs.wsj.com/marketbeat/2012/08/02/knight-capital-trading-error-cost-firm-440-million/">here)</a> but if you&#8217;re interested in this stuff I&#8217;ve dumped all of my code out to <a href="https://github.com/kwangbkim/IBAlgoTrader">GitHub</a>.</p>
 
@@ -260,45 +394,72 @@
 
 
 <p>The true moral of the story here is that retail trading should be done for fun, not for profit!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Lumosity: Cool Idea, Want Refund]]></title>
-    <link href="http://kwangbkim.github.com/blog/2012/08/14/lumosity-cool-idea/"/>
-    <updated>2012-08-14T22:03:00-04:00</updated>
-    <id>http://kwangbkim.github.com/blog/2012/08/14/lumosity-cool-idea</id>
-    <content type="html"><![CDATA[<p>If you haven&#8217;t heard of <a href="http://www.lumosity.com/">Lumosity</a> it&#8217;s a relatively new startup that&#8217;s been hyped up a lot by the media.  The basic premise is that playing their games, based on academic research, can help improve brain function and performance.</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Lumosity: Cool Idea, Want Refund]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2012/08/14/lumosity-cool-idea/"/>
+		<updated>2012-08-14T22:03:00-04:00</updated>
+		<id>http://kwangbkim.github.com/blog/2012/08/14/lumosity-cool-idea</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>If you haven&#8217;t heard of <a href="http://www.lumosity.com/">Lumosity</a> it&#8217;s a relatively new startup that&#8217;s been hyped up a lot by the media.  The basic premise is that playing their games, based on academic research, can help improve brain function and performance.</p>
 
 <p>Sounds like a pretty cool idea right?  I figured I&#8217;d give it a shot and signed up for a one year membership.  The first couple weeks were fine, I didn&#8217;t really feel any different.  Then it just became a chore and seeing as how I didn&#8217;t benefit, I slowly gave up on it.  I&#8217;m not going to argue whether or not the games actually help as that wasn&#8217;t the issue for me.</p>
 
 <p>The real problem was the offered benefits to me were generally worthless.  For instance, they offered not one, but two types of games to help train your peripheral vision.  I loathed these games but was forced to play it over and over even when it wasn&#8217;t something I cared to improve.  I wanted to work on problem solving skills, hoping it would improve my abilities as a developer.  Unfortunately, they seem to only have games for simple non-complex problems like basic arithmetic.</p>
 
 <p>So after 80 bucks down the drain there&#8217;s a simple lesson to be learned: if you want to get smarter there&#8217;s no substitute for hard work.  If you&#8217;re a developer that means writing more code, reading others, and occasionally hitting the books.  Everything else is a probably a distraction.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[App.Net]]></title>
-    <link href="http://kwangbkim.github.com/blog/2012/08/12/app-dot-net/"/>
-    <updated>2012-08-12T15:42:00-04:00</updated>
-    <id>http://kwangbkim.github.com/blog/2012/08/12/app-dot-net</id>
-    <content type="html"><![CDATA[<p>In my <a href="http://kwangbkim.com/blog/2012/08/01/silicon-valley-and-the-timeshare-model/">Sum Zero Silicon Valley</a>  post I noted <a href="http://daltoncaldwell.com/">Dalton Caldwell&#8217;s</a> new venture <a href="http://join.app.net">App.Net</a>, a Twitter-like application focused on users and not advertising.  At the time of my writing, funding had been going on for a couple weeks but had only amassed around $150k, well short of the $500k goal.  With only a week left things were looking grim right?</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[App.Net]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2012/08/12/app-dot-net/"/>
+		<updated>2012-08-12T15:42:00-04:00</updated>
+		<id>http://kwangbkim.github.com/blog/2012/08/12/app-dot-net</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>In my <a href="http://kwangbkim.com/blog/2012/08/01/silicon-valley-and-the-timeshare-model/">Sum Zero Silicon Valley</a>  post I noted <a href="http://daltoncaldwell.com/">Dalton Caldwell&#8217;s</a> new venture <a href="http://join.app.net">App.Net</a>, a Twitter-like application focused on users and not advertising.  At the time of my writing, funding had been going on for a couple weeks but had only amassed around $150k, well short of the $500k goal.  With only a week left things were looking grim right?</p>
 
 <p>Wrong!  I have to give Dalton huge props here, because with many people theorizing that funding would be well short, he remained confident.  His explanation <a href="http://daltoncaldwell.com/appnet-is-not-vaporware">here</a> is pretty spot on.  It also doesn&#8217;t hurt to have <a href="http://daringfireball.net/">John Gruber</a> advocating your stuff.  I think within a day of his giving a shout out to App.Net, the site was able to raise an additional $100k.</p>
 
 <p>So what&#8217;s next?  Well, I suppose that the real work begins.  The <a href="https://github.com/appdotnet/api-spec">API</a> needs to be hashed out, as that is still a work in progress.  <a href="http://samsoff.es/posts/app-net-is-dreaming-small">Sam Soffes</a> made a good point in that App.Net may have marketing issues, as it seems that the product is geared more towards developers than users themselves.  The product itself still needs to be built, the only tangible thing that exists right now is a prototype and a few apps to prove the API can work.</p>
 
 <p>But still, the next few months should be exciting.  I&#8217;ll be watching the development of the API closely as that to me is where the real possibilities lie.  Congratulations to the App.Net team!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Open Sourced Judging]]></title>
-    <link href="http://kwangbkim.github.com/blog/2012/08/10/open-source-judging/"/>
-    <updated>2012-08-10T20:18:00-04:00</updated>
-    <id>http://kwangbkim.github.com/blog/2012/08/10/open-source-judging</id>
-    <content type="html"><![CDATA[<p>As a Korean-American I&#8217;ve had the luxury to follow both countries in the current Olympics.  One particular story that jumped out was about Shin Lam, the South Korean fencer who was unfairly eliminated due to a clock malfunction.  Shin Lam only had to evade getting touched for one second in order to move on to the finals.  Unfortunately, time works in <a href="http://www.youtube.com/watch?v=G7QENF5Uf7k">mysterious ways</a>.</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Open Sourced Judging]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2012/08/10/open-source-judging/"/>
+		<updated>2012-08-10T20:18:00-04:00</updated>
+		<id>http://kwangbkim.github.com/blog/2012/08/10/open-source-judging</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>As a Korean-American I&#8217;ve had the luxury to follow both countries in the current Olympics.  One particular story that jumped out was about Shin Lam, the South Korean fencer who was unfairly eliminated due to a clock malfunction.  Shin Lam only had to evade getting touched for one second in order to move on to the finals.  Unfortunately, time works in <a href="http://www.youtube.com/watch?v=G7QENF5Uf7k">mysterious ways</a>.</p>
 
 <p>I feel sorry for her.  But in retrospect, this latest calamity makes South Korea par for the course in judging mishaps, at best.  Anyone remember <a href="http://www.youtube.com/watch?v=cJYBV9BXQNY">Roy Jones Jr.</a>?</p>
 
@@ -307,15 +468,24 @@
 <p>Back to fencing and judging.  Wouldn&#8217;t it be great if we treated judging like our open sourced software?  That is, a skilled and knowledgeable community working together, in the open for all to see.  I am pretty sure that more than six people exist in the world who can accurately score a fencing competition.  Why delegate such important decisions to a small group of people?</p>
 
 <p>I&#8217;m sure there would be tons of issues with this, specifically the logistics and time efficiency of making such decisions.  But with services like Twitter that provide instant feedback, here&#8217;s to hoping a new model can be developed so that athletes like Roy Jones Jr. and Shin Lam don&#8217;t put in four years of training to get screwed.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Sum Zero Silicon Valley]]></title>
-    <link href="http://kwangbkim.github.com/blog/2012/08/01/silicon-valley-and-the-timeshare-model/"/>
-    <updated>2012-08-01T23:00:00-04:00</updated>
-    <id>http://kwangbkim.github.com/blog/2012/08/01/silicon-valley-and-the-timeshare-model</id>
-    <content type="html"><![CDATA[<p>Over the past week I&#8217;ve been reading a lot of material on <a href="http://daltoncaldwell.com/">Dalton Caldwell&#8217;s</a> blog.  It&#8217;s a tiny bit Jerry Maguire-ish but over and over again I find myself nodding my head in agreement.  The latest hot topic has been the recent changes to Twitter, presumably in an attempt to gain a better position to monetize their business.</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Sum Zero Silicon Valley]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2012/08/01/silicon-valley-and-the-timeshare-model/"/>
+		<updated>2012-08-01T23:00:00-04:00</updated>
+		<id>http://kwangbkim.github.com/blog/2012/08/01/silicon-valley-and-the-timeshare-model</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>Over the past week I&#8217;ve been reading a lot of material on <a href="http://daltoncaldwell.com/">Dalton Caldwell&#8217;s</a> blog.  It&#8217;s a tiny bit Jerry Maguire-ish but over and over again I find myself nodding my head in agreement.  The latest hot topic has been the recent changes to Twitter, presumably in an attempt to gain a better position to monetize their business.</p>
 
 <p>I think there is a fundamental flaw in the tech to marketing business model.  By saying tech to marketing, I mean a company who starts off as a tech company to attract users, who then changes to a marketing company to make money once they reach critical mass.  It&#8217;s happened to Facebook, and now it&#8217;s happening to Twitter.</p>
 
@@ -326,15 +496,24 @@
 <p>Granted, not all companies have problems with this model.  <a href="http://www.stackexchange.com">StackExchange</a> offers an amazing product, is free and ad supported and is doing just fine thank you.</p>
 
 <p>Going back to Twitter, I&#8217;ve subscribed to <a href="http://join.app.net">App.Net</a>, Dalton Caldwell&#8217;s potential alternative.  Imagine the best of Twitter: clean, no ads, completely user focused, all for four bucks a month.  But it needs to raise $500k by August 14th and it doesn&#8217;t seem like they&#8217;re going to make it.  But we can all dream can&#8217;t we?</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Getting A Job Out of College]]></title>
-    <link href="http://kwangbkim.github.com/blog/2012/07/25/getting-a-job-out-of-college/"/>
-    <updated>2012-07-25T20:53:00-04:00</updated>
-    <id>http://kwangbkim.github.com/blog/2012/07/25/getting-a-job-out-of-college</id>
-    <content type="html"><![CDATA[<p>It&#8217;s been five years since I first graduated from college and got a real job.  Here are the experiences from my first real job search, if you&#8217;re out there looking I hope it&#8217;ll help you.</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Getting A Job Out of College]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2012/07/25/getting-a-job-out-of-college/"/>
+		<updated>2012-07-25T20:53:00-04:00</updated>
+		<id>http://kwangbkim.github.com/blog/2012/07/25/getting-a-job-out-of-college</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>It&#8217;s been five years since I first graduated from college and got a real job.  Here are the experiences from my first real job search, if you&#8217;re out there looking I hope it&#8217;ll help you.</p>
 
 <h2>Internship Experience</h2>
 
@@ -384,7 +563,8 @@ Me - I see..<br/>
 <h3>Prepare, prepare, prepare</h3>
 
 <p>Interviewing is not easy, especially if you&#8217;re a software developer.  A developer interview can range anywhere from a couple hours of conversation, to written tests, to writing code on a whiteboard all day.  Go over your resume and make sure you have a good grasp of all the fundamentals of the languages you list.  Also, start practicing coding problems.  Do challenges like Google Code Jam or TopCoder if you can.</p>
-]]></content>
-  </entry>
-  
+]]>
+		</content>
+	</entry>
+	
 </feed>

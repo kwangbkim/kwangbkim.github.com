@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: programming | Kwang B. Kim]]></title>
+  <link href="http://kwangbkim.github.com/blog/categories/programming/atom.xml" rel="self"/>
+  <link href="http://kwangbkim.github.com/"/>
+  <updated>2013-09-08T19:03:25-04:00</updated>
+  <id>http://kwangbkim.github.com/</id>
+  <author>
+    <name><![CDATA[Kwang B. Kim]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Named Parameters for Readability]]></title>
+    <link href="http://kwangbkim.github.com/blog/2013/09/08/named-parameters-for-readability/"/>
+    <updated>2013-09-08T18:11:00-04:00</updated>
+    <id>http://kwangbkim.github.com/blog/2013/09/08/named-parameters-for-readability</id>
+    <content type="html"><![CDATA[<p>Here's a nice, <a href="http://mat-mcloughlin.net/2013/08/27/using-named-parameters-for-constants.html">short post</a> I enjoyed about how to make your code more readable.  I think this is particular useful for the languages out there without a big IDE.  In .NET, using solid parameter names mitigates the usefulness of this because of intellisense.  But, overall I'll be trying to do this more in my own code.</p>
+]]></content>
+  </entry>
+  
+</feed>
