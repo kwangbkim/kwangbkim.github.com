@@ -9,7 +9,7 @@
 		<meta content="Kwang B. Kim - Software Developer." name="description">
 		<meta content="Kwang B. Kim" name="author">
 		
-		<title>Category: programming &mdash; Kwang B. Kim</title>
+		<title>Prefer Enums as Parameters &mdash; Kwang B. Kim</title>
 		
 		<!-- Styles -->
 		<link href="/stylesheets/main.css" rel="stylesheet">
@@ -45,53 +45,54 @@
 				</div> <!-- // .navi -->
 			</header>
 		
-				<!-- START OF _layouts/page.html -->
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
 <article>
-<header>
-	
-			<h1 class="center">Category: programming</h1>
-	
-</header>
-<!-- BEGIN _layouts/category_index.html -->
+	<header>
+		<h1><a href="/blog/2013/09/17/prefer-enums-as-parameters/">Prefer Enums as Parameters</a></h1>
+		<time>17 September 2013</time>
+	</header>
+		<div class="content">
+			<p>This post goes along with the previous one about <a href="http://kwangbkim.com/blog/2013/09/08/named-parameters-for-readability/">named parameters</a>.  I was re-reading some old notes from <a href="http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683/ref=sr_1_1?ie=UTF8&amp;qid=1379471724&amp;sr=8-1&amp;keywords=effective+java">Effective Java</a> when I came across a little snippet about why enums are preferable as parameter types over things like booleans or strings.</p>
+
+<p>Take this example:</p>
+
+<pre><code>public int someFormula(int value, bool isFarenheight) {
+  // do some stuff...
+}
+</code></pre>
+
+<p>This method signature isn&#8217;t egregious, but there are a few issues.  The first is that an assumption is made that a celsius value will be passed in if isFarenheight = false.  It&#8217;s probably what the API is expecting, but who knows for sure?  I suppose the parameter could be renamed to <em>isFarenheightOrCelsius</em>.  But say, for whatever reason, a new degree type needs to be included.  Now the situation becomes more complicated.  The API developer will probably have to create a brand new method with a different name, or do a one-off overload that&#8217;ll make things even more confusing for the client developer.</p>
+
+<p>In short, when in doubt try to prefer enums as parameter types.  It&#8217;s more readable for the developer and extensible for future changes.</p>
+
+		</div>
+	<footer>
+		
 
 
+		
 
 
 
   
-	<div class="cat-year">2013</div>
+		
+			Tagged under
+		
+    <a class='category' href='/blog/categories/programming/'>programming</a>
+	
 
 
-
-  
-	<div class="cat-month">September</div>
-
-
-<!-- BEGIN _includes/archive_post.html -->
-
-<a class="title-listing" href="/blog/2013/09/17/prefer-enums-as-parameters/">Prefer Enums as Parameters</a><br>
-<!-- END _includes/archive_post.html -->
-
-
-
-
-
-
-
-
-
-<!-- BEGIN _includes/archive_post.html -->
-
-<a class="title-listing" href="/blog/2013/09/08/named-parameters-for-readability/">Named Parameters for Readability</a><br>
-<!-- END _includes/archive_post.html -->
-
-
-
-
-<!-- _layouts/category_index.html -->
-
+	
+	
+	</footer>
+	
 </article>
-<!-- END OF _layouts/page.html -->
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
 
 		
 			<footer>

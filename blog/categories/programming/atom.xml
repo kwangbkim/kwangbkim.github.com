@@ -4,7 +4,7 @@
   <title><![CDATA[Category: programming | Kwang B. Kim]]></title>
   <link href="http://kwangbkim.github.com/blog/categories/programming/atom.xml" rel="self"/>
   <link href="http://kwangbkim.github.com/"/>
-  <updated>2013-09-10T19:15:48-04:00</updated>
+  <updated>2013-09-17T22:39:07-04:00</updated>
   <id>http://kwangbkim.github.com/</id>
   <author>
     <name><![CDATA[Kwang B. Kim]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Prefer Enums as Parameters]]></title>
+    <link href="http://kwangbkim.github.com/blog/2013/09/17/prefer-enums-as-parameters/"/>
+    <updated>2013-09-17T23:04:00-04:00</updated>
+    <id>http://kwangbkim.github.com/blog/2013/09/17/prefer-enums-as-parameters</id>
+    <content type="html"><![CDATA[<p>This post goes along with the previous one about <a href="http://kwangbkim.com/blog/2013/09/08/named-parameters-for-readability/">named parameters</a>.  I was re-reading some old notes from <a href="http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683/ref=sr_1_1?ie=UTF8&amp;qid=1379471724&amp;sr=8-1&amp;keywords=effective+java">Effective Java</a> when I came across a little snippet about why enums are preferable as parameter types over things like booleans or strings.</p>
+
+<p>Take this example:</p>
+
+<pre><code>public int someFormula(int value, bool isFarenheight) {
+  // do some stuff...
+}
+</code></pre>
+
+<p>This method signature isn't egregious, but there are a few issues.  The first is that an assumption is made that a celsius value will be passed in if isFarenheight = false.  It's probably what the API is expecting, but who knows for sure?  I suppose the parameter could be renamed to <em>isFarenheightOrCelsius</em>.  But say, for whatever reason, a new degree type needs to be included.  Now the situation becomes more complicated.  The API developer will probably have to create a brand new method with a different name, or do a one-off overload that'll make things even more confusing for the client developer.</p>
+
+<p>In short, when in doubt try to prefer enums as parameter types.  It's more readable for the developer and extensible for future changes.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Named Parameters for Readability]]></title>
