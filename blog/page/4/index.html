@@ -52,6 +52,59 @@
 		<!-- START OF _includes/article.html -->
 <article>
 	<header>
+		<h1><a href="/blog/2012/08/26/tried-algo-trading/">Tried Algo Trading, Losses Ensue</a></h1>
+		<time>26 August 2012</time>
+	</header>
+		<div class="content">
+			<p>About a year ago I had some extra time on my hands and decided I&#8217;d take a crack at creating an <a href="http://en.wikipedia.org/wiki/Algorithmic_trading">algorithmic trading</a> strategy.  <a href="http://individuals.interactivebrokers.com/en/main.php">Interactive Brokers</a> offers an API which you can use to gather data and execute trades, though you will have to plop down the $10k minimum for an account.</p>
+
+<p>Here&#8217;s a quick pitch of the idea I was executing.  Long story short is that it did horribly, (maybe because I didn&#8217;t want to make it do intraday trading, reason <a href="http://blogs.wsj.com/marketbeat/2012/08/02/knight-capital-trading-error-cost-firm-440-million/">here)</a> but if you&#8217;re interested in this stuff I&#8217;ve dumped all of my code out to <a href="https://github.com/kwangbkim/IBAlgoTrader">GitHub</a>.</p>
+
+<h2>Overview</h2>
+
+<p>On any given day most of the global markets are generally correlated.  Not only Asia/US/Europe, but emerging countries as well like Brazil and India.  But at the same time each individual country&#8217;s financial market is affected by it&#8217;s own inner dynamics.  Things like domestic and international politics can change a single economy in a way that differs from the rest of the world.</p>
+
+<p>The idea is to track each individual country&#8217;s market and compare it to some global world index.  I used Vanguard&#8217;s <a href="https://personal.vanguard.com/us/funds/snapshot?FundId=3141&amp;FundIntExt=INT">Total World Stock ETF</a>.  The price data I collected was daily and weekly.  By gathering price data based on different time intervals, I can calculate a country&#8217;s correlation to the global index over multiple time periods.  When there&#8217;s a large difference between the long term (weekly) and short term (daily) correlations, that denotes an event occurred in a particular country&#8217;s domestic market and a trade should be made.</p>
+
+<h2>Main pitfalls</h2>
+
+<ul>
+<li>International events that affect multiple countries at the same time, triggering multiple trade alerts.  Not good because the goal is to make separate trades that are uncorrelated with each other to increase diversification and reduce variance.</li>
+<li>It seemed like some events could just be rumors and dissipates quickly, or the market is just too efficient.  By the time my program noticed a correlation shift it would be too late and I&#8217;d lose money.</li>
+</ul>
+
+
+<p>The true moral of the story here is that retail trading should be done for fun, not for profit!</p>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+  
+		
+			Tagged under
+		
+    <a class='category' href='/blog/categories/trading/'>trading</a>
+	
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+	
+		
+		<!-- START OF _includes/article.html -->
+<article>
+	<header>
 		<h1><a href="/blog/2012/08/14/lumosity-cool-idea/">Lumosity: Cool Idea, Want Refund</a></h1>
 		<time>14 August 2012</time>
 	</header>
@@ -218,95 +271,13 @@
 <!-- END OF _includes/article.html -->
 
 	
-		
-		<!-- START OF _includes/article.html -->
-<article>
-	<header>
-		<h1><a href="/blog/2012/07/25/getting-a-job-out-of-college/">Getting A Job Out of College</a></h1>
-		<time>25 July 2012</time>
-	</header>
-		<div class="content">
-			<p>It&#8217;s been five years since I first graduated from college and got a real job.  Here are the experiences from my first real job search, if you&#8217;re out there looking I hope it&#8217;ll help you.</p>
-
-<h2>Internship Experience</h2>
-
-<p>My junior year I did an internship at a big corporate insurance company.  To be blunt, I wasn&#8217;t a great fit.  As a developer I was able to get a good amount of work done.  Still, I was frustrated at the total length of time it took to gets things finished.  A tiny request such as renaming a label could take weeks by the time code reviews, QA and production approval take place.</p>
-
-<p>I also didn&#8217;t fit in well with the company culture.  For instance every Friday was hawaiian shirt day (queue office space references).  Perhaps it&#8217;s petty to hate something so small but it&#8217;s the principle that bothered me.  If I wore a hawaiian shirt it would be an admittance that I hate my job and would much rather be off on some remote island drinking a cocktail with a little umbrella in it.  I don&#8217;t want to hate work nor was I longing for an early retirement.  Call me a stereotypical millennial but I wanted to work hard, hopefully doing something I liked.</p>
-
-<p>Don&#8217;t get me wrong, the company and people treated me great.  As an attempt to keep my options open I kept a line of communication with my old boss.  We spoke a bunch of times but it was clear I was better off looking elsewhere.</p>
-
-<h2>Potential Suitors</h2>
-
-<p>Two companies stick out into my mind during my search.  One was a small Microsoft shop that I received an offer from and another was a small vendor from which I ran away as far and as fast as possible.</p>
-
-<p>I really liked the Microsoft shop.  Everyone was polite and thoughtful and the coders I met seemed pretty cool.  I didn&#8217;t get tested technically, so they probably wanted someone they liked at a personal level and who would be committed to the company.</p>
-
-<p>I did have reservations about the shop.  The first was that they used a little known Microsoft language for their development.  I wasn&#8217;t crazy about that.  The offer that came in was a little low to me.  Lastly, the company was located in a suburb where there wasn&#8217;t much to do and not many other young people to meet.  All of that combined I had to pass with some regret.</p>
-
-<p>But there was zero regret in passing on the small vendor.  I distinctly remember walking into the office.  Everything was beige.  The walls, the computers, the floor, the toilets.  Perhaps a monochromatic scheme was in at the time I thought.  The interview I had with the manager was  painful.  We talked for about five minutes.  Then he started reading a newspaper while asking me questions.  At first I thought if this was just a rouse, some test to see if I could keep my composure.  Then reality sank in.  I wondered if there was a cordial way to just excuse myself and get out of there.  I stuck it out and wrote a polite email declining a second interview.</p>
-
-<h2>The One</h2>
-
-<p>I came into contact with a recruiter who set me up with an interview at a hedge fund.  The work seemed interesting, I liked the idea of being part of a small team building programs in an agile manner.  I met every developer on the team.  They were all great.  Manager seemed like a great guy.  Everything was just peachy.  Then came the show stopper.  The conversation went something like this:</p>
-
-<blockquote><p>Manager - so how are your VB.NET skills?<br/>
-Me - uh, not good.  Basically non-existent.<br/>
-.. awkward silence ..<br/>
-Manager - every developer has to pass create a program on the spot as a test<br/>
-Me - I see..<br/>
-.. more awkward silence ..</p></blockquote>
-
-<p>After some more discussion and awkward silences I decided to just take a crack at it.  Worst case scenario I look like an idiot though no better than before.  With the allowed use of google I was able to hack up a solution in the two hours I was given.  I finished just as time expired and was graciously given a little leeway with a couple bugs in my code.  After it was all done I was told I was the only candidate they interviewed who completed the test and they&#8217;d be in touch.  And just like that I had my first job.</p>
-
-<h2>Finding Your First Job</h2>
-
-<h3>Whatever you think want to do when you get out of college, do it first during your summer breaks</h3>
-
-<p>You want to be a software developer?  Start working at it now.  Get an internship, work on side projects, start a web site, join GitHub etc.  The more experience you get prior to graduation the better you look once you get out.  Try and figure out what areas you like and which ones you don&#8217;t.  This will help you narrow down your job search.</p>
-
-<h3>Interviews work both ways</h3>
-
-<p>Even in today&#8217;s crappy economy don&#8217;t settle on taking the first job offered to you.  Do you like the company?  Do you like the people?  Do they seem happy?  Will you be happy moving if you need to?  Do you believe in the product?  Figure out what your priorities are and go from there.</p>
-
-<h3>Don&#8217;t over think it</h3>
-
-<p>If you find a good company with a good product, a good team and a good manager then you&#8217;re all set.  Try not to get too caught up in finding the perfect dream job.  I know this kind of goes against what I said above.  Just something to keep in mind if you&#8217;re stressing out on whether or not you should take an offer.</p>
-
-<h3>Prepare, prepare, prepare</h3>
-
-<p>Interviewing is not easy, especially if you&#8217;re a software developer.  A developer interview can range anywhere from a couple hours of conversation, to written tests, to writing code on a whiteboard all day.  Go over your resume and make sure you have a good grasp of all the fundamentals of the languages you list.  Also, start practicing coding problems.  Do challenges like Google Code Jam or TopCoder if you can.</p>
-
-		</div>
-	<footer>
-		
-
-
-		
-
-
-
-  
-		
-			Tagged under
-		
-    <a class='category' href='/blog/categories/college/'>college</a>, <a class='category' href='/blog/categories/interview/'>interview</a>, <a class='category' href='/blog/categories/job/'>job</a>
-	
-
-
-	
-	
-	</footer>
-	
-</article>
-<!-- END OF _includes/article.html -->
-
-	
 	
 <div class="pagination">
 	
+		<a class="older" href="/blog/page/5/">Older</a>
 	
-	<span class="total">4 of 4</span>
+	
+	<span class="total">4 of 5</span>
 	
 	
 		<a class="newer" href="/blog/page/3/">Newer</a>

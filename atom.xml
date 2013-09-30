@@ -4,7 +4,7 @@
 	<title><![CDATA[Kwang B. Kim]]></title>
 	<link href="http://kwangbkim.github.com/atom.xml" rel="self"/>
 	<link href="http://kwangbkim.github.com/"/>
-	<updated>2013-09-17T22:39:07-04:00</updated>
+	<updated>2013-09-29T21:17:50-04:00</updated>
 	<id>http://kwangbkim.github.com/</id>
 	<author>
 		<name><![CDATA[Kwang B. Kim]]></name>
@@ -12,6 +12,30 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[On Reading Code: Assume Positive Intent]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2013/09/29/on-wtf-moments-assume-positive-intent/"/>
+		<updated>2013-09-29T20:33:00-04:00</updated>
+		<id>http://kwangbkim.github.com/blog/2013/09/29/on-wtf-moments-assume-positive-intent</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>Every software developer out there in the real world has likely come across what&#8217;s known as a WTF.  In layman&#8217;s terms it means coming across code that makes no sense, either through bad techniques, design or just unnecessary &#8216;cleverness&#8217;.  See <a href="http://thedailywtf.com/">here</a> for some funny examples.</p>
+
+<p>In my early days as a professional developer I used to work up a little fit when I read stuff that made no sense at all.  But nowadays I&#8217;m pretty zen about it.  I&#8217;m reminded of this quote by Indra Nooyi, CEO of Pepsi.</p>
+
+<blockquote><p>My father was an absolutely wonderful human being. From him I learned to always assume positive intent. Whatever anybody says or does, assume positive intent. You will be amazed at how your whole approach to a person or problem becomes very different. When you assume negative intent, you&#8217;re angry. If you take away that anger and assume positive intent, you will be amazed. Your emotional quotient goes up because you are no longer almost random in your response. You don&#8217;t get defensive. You don&#8217;t scream. You are trying to understand and listen because at your basic core you are saying, &#8220;Maybe they are saying something to me that I&#8217;m not hearing.&#8221; So &#8220;assume positive intent&#8221; has been a huge piece of advice for me.</p></blockquote>
+
+<p>The takeaway for me is that if you get angry or negative about code, you&#8217;re wasting energy on something that&#8217;s outside of your control.  I&#8217;ve seen developers go on long rants about someone else&#8217;s work, only to later recant when they missed some detail.  It&#8217;s just not worth it.  Instead, apply that energy toward fully understanding the problem space and the developer&#8217;s intentions.  In the end, maybe the code is just bad and you&#8217;re no better off.  But you&#8217;ll be happier and more sane if you assume positive intent.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -525,73 +549,6 @@
 <p>Granted, not all companies have problems with this model.  <a href="http://www.stackexchange.com">StackExchange</a> offers an amazing product, is free and ad supported and is doing just fine thank you.</p>
 
 <p>Going back to Twitter, I&#8217;ve subscribed to <a href="http://join.app.net">App.Net</a>, Dalton Caldwell&#8217;s potential alternative.  Imagine the best of Twitter: clean, no ads, completely user focused, all for four bucks a month.  But it needs to raise $500k by August 14th and it doesn&#8217;t seem like they&#8217;re going to make it.  But we can all dream can&#8217;t we?</p>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[Getting A Job Out of College]]></title>
-		
-		<link href="http://kwangbkim.github.com/blog/2012/07/25/getting-a-job-out-of-college/"/>
-		<updated>2012-07-25T20:53:00-04:00</updated>
-		<id>http://kwangbkim.github.com/blog/2012/07/25/getting-a-job-out-of-college</id>
-		<content type="html">
-			<![CDATA[
-				
-					<p></p>
-				
-			]]>
-			<![CDATA[<p>It&#8217;s been five years since I first graduated from college and got a real job.  Here are the experiences from my first real job search, if you&#8217;re out there looking I hope it&#8217;ll help you.</p>
-
-<h2>Internship Experience</h2>
-
-<p>My junior year I did an internship at a big corporate insurance company.  To be blunt, I wasn&#8217;t a great fit.  As a developer I was able to get a good amount of work done.  Still, I was frustrated at the total length of time it took to gets things finished.  A tiny request such as renaming a label could take weeks by the time code reviews, QA and production approval take place.</p>
-
-<p>I also didn&#8217;t fit in well with the company culture.  For instance every Friday was hawaiian shirt day (queue office space references).  Perhaps it&#8217;s petty to hate something so small but it&#8217;s the principle that bothered me.  If I wore a hawaiian shirt it would be an admittance that I hate my job and would much rather be off on some remote island drinking a cocktail with a little umbrella in it.  I don&#8217;t want to hate work nor was I longing for an early retirement.  Call me a stereotypical millennial but I wanted to work hard, hopefully doing something I liked.</p>
-
-<p>Don&#8217;t get me wrong, the company and people treated me great.  As an attempt to keep my options open I kept a line of communication with my old boss.  We spoke a bunch of times but it was clear I was better off looking elsewhere.</p>
-
-<h2>Potential Suitors</h2>
-
-<p>Two companies stick out into my mind during my search.  One was a small Microsoft shop that I received an offer from and another was a small vendor from which I ran away as far and as fast as possible.</p>
-
-<p>I really liked the Microsoft shop.  Everyone was polite and thoughtful and the coders I met seemed pretty cool.  I didn&#8217;t get tested technically, so they probably wanted someone they liked at a personal level and who would be committed to the company.</p>
-
-<p>I did have reservations about the shop.  The first was that they used a little known Microsoft language for their development.  I wasn&#8217;t crazy about that.  The offer that came in was a little low to me.  Lastly, the company was located in a suburb where there wasn&#8217;t much to do and not many other young people to meet.  All of that combined I had to pass with some regret.</p>
-
-<p>But there was zero regret in passing on the small vendor.  I distinctly remember walking into the office.  Everything was beige.  The walls, the computers, the floor, the toilets.  Perhaps a monochromatic scheme was in at the time I thought.  The interview I had with the manager was  painful.  We talked for about five minutes.  Then he started reading a newspaper while asking me questions.  At first I thought if this was just a rouse, some test to see if I could keep my composure.  Then reality sank in.  I wondered if there was a cordial way to just excuse myself and get out of there.  I stuck it out and wrote a polite email declining a second interview.</p>
-
-<h2>The One</h2>
-
-<p>I came into contact with a recruiter who set me up with an interview at a hedge fund.  The work seemed interesting, I liked the idea of being part of a small team building programs in an agile manner.  I met every developer on the team.  They were all great.  Manager seemed like a great guy.  Everything was just peachy.  Then came the show stopper.  The conversation went something like this:</p>
-
-<blockquote><p>Manager - so how are your VB.NET skills?<br/>
-Me - uh, not good.  Basically non-existent.<br/>
-.. awkward silence ..<br/>
-Manager - every developer has to pass create a program on the spot as a test<br/>
-Me - I see..<br/>
-.. more awkward silence ..</p></blockquote>
-
-<p>After some more discussion and awkward silences I decided to just take a crack at it.  Worst case scenario I look like an idiot though no better than before.  With the allowed use of google I was able to hack up a solution in the two hours I was given.  I finished just as time expired and was graciously given a little leeway with a couple bugs in my code.  After it was all done I was told I was the only candidate they interviewed who completed the test and they&#8217;d be in touch.  And just like that I had my first job.</p>
-
-<h2>Finding Your First Job</h2>
-
-<h3>Whatever you think want to do when you get out of college, do it first during your summer breaks</h3>
-
-<p>You want to be a software developer?  Start working at it now.  Get an internship, work on side projects, start a web site, join GitHub etc.  The more experience you get prior to graduation the better you look once you get out.  Try and figure out what areas you like and which ones you don&#8217;t.  This will help you narrow down your job search.</p>
-
-<h3>Interviews work both ways</h3>
-
-<p>Even in today&#8217;s crappy economy don&#8217;t settle on taking the first job offered to you.  Do you like the company?  Do you like the people?  Do they seem happy?  Will you be happy moving if you need to?  Do you believe in the product?  Figure out what your priorities are and go from there.</p>
-
-<h3>Don&#8217;t over think it</h3>
-
-<p>If you find a good company with a good product, a good team and a good manager then you&#8217;re all set.  Try not to get too caught up in finding the perfect dream job.  I know this kind of goes against what I said above.  Just something to keep in mind if you&#8217;re stressing out on whether or not you should take an offer.</p>
-
-<h3>Prepare, prepare, prepare</h3>
-
-<p>Interviewing is not easy, especially if you&#8217;re a software developer.  A developer interview can range anywhere from a couple hours of conversation, to written tests, to writing code on a whiteboard all day.  Go over your resume and make sure you have a good grasp of all the fundamentals of the languages you list.  Also, start practicing coding problems.  Do challenges like Google Code Jam or TopCoder if you can.</p>
 ]]>
 		</content>
 	</entry>

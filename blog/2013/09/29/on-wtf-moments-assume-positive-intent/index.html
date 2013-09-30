@@ -1,0 +1,131 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="Kwang B. Kim - Software Developer." name="description">
+		<meta content="Kwang B. Kim" name="author">
+		
+		<title>On Reading Code: Assume Positive Intent &mdash; Kwang B. Kim</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Kwang B. Kim" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Kwang B. Kim</div>
+				
+				<div class="navi">
+					<ul>
+						<li><a href="/">Blog</a></li>
+						<li><a href="/blog/archives">Archives</a></li>
+            <li><a href="/about/">About</a></li>
+					<ul>
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/blog/2013/09/29/on-wtf-moments-assume-positive-intent/">On Reading Code: Assume Positive Intent</a></h1>
+		<time>29 September 2013</time>
+	</header>
+		<div class="content">
+			<p>Every software developer out there in the real world has likely come across what&#8217;s known as a WTF.  In layman&#8217;s terms it means coming across code that makes no sense, either through bad techniques, design or just unnecessary &#8216;cleverness&#8217;.  See <a href="http://thedailywtf.com/">here</a> for some funny examples.</p>
+
+<p>In my early days as a professional developer I used to work up a little fit when I read stuff that made no sense at all.  But nowadays I&#8217;m pretty zen about it.  I&#8217;m reminded of this quote by Indra Nooyi, CEO of Pepsi.</p>
+
+<blockquote><p>My father was an absolutely wonderful human being. From him I learned to always assume positive intent. Whatever anybody says or does, assume positive intent. You will be amazed at how your whole approach to a person or problem becomes very different. When you assume negative intent, you&#8217;re angry. If you take away that anger and assume positive intent, you will be amazed. Your emotional quotient goes up because you are no longer almost random in your response. You don&#8217;t get defensive. You don&#8217;t scream. You are trying to understand and listen because at your basic core you are saying, &#8220;Maybe they are saying something to me that I&#8217;m not hearing.&#8221; So &#8220;assume positive intent&#8221; has been a huge piece of advice for me.</p></blockquote>
+
+<p>The takeaway for me is that if you get angry or negative about code, you&#8217;re wasting energy on something that&#8217;s outside of your control.  I&#8217;ve seen developers go on long rants about someone else&#8217;s work, only to later recant when they missed some detail.  It&#8217;s just not worth it.  Instead, apply that energy toward fully understanding the problem space and the developer&#8217;s intentions.  In the end, maybe the code is just bad and you&#8217;re no better off.  But you&#8217;ll be happier and more sane if you assume positive intent.</p>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+  
+		
+			Tagged under
+		
+    <a class='category' href='/blog/categories/programming/'>programming</a>
+	
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Kwang B. Kim
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->
