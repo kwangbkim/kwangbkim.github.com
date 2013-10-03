@@ -1,0 +1,148 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="Kwang B. Kim - Software Developer." name="description">
+		<meta content="Kwang B. Kim" name="author">
+		
+		<title>Is Poetry Dead? &mdash; Kwang B. Kim</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Kwang B. Kim" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Kwang B. Kim</div>
+				
+				<div class="navi">
+					<ul>
+						<li><a href="/">Blog</a></li>
+						<li><a href="/blog/archives">Archives</a></li>
+            <li><a href="/about/">About</a></li>
+					<ul>
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/blog/2013/10/02/is-poetry-dead/">Is Poetry Dead?</a></h1>
+		<time>02 October 2013</time>
+	</header>
+		<div class="content">
+			<p>I read an <a href="wapost%20link">article</a> recently about poetry questioning if it&#8217;s now a defunct, irrelevant art.  And though in the past few years I&#8217;ve gotten into poetry, I must admit there are some fair points in there.  In my own experience, I find some poems to be flat out boring.  Poems written by people quite famous and well praised in the academic/artistic community.  I can&#8217;t help it, I wish I enjoyed them more.  But it feels like work just to get through it because the text is so densely filled with imageries, descriptions and abstractions.</p>
+
+<p>Then one day, I read this poem and it got me thinking about all of the above.  It goes like this:</p>
+
+<blockquote><p>Sometimes I cry when I&#8217;m alone<br/>
+I cry because I&#8217;m on my own<br/>
+The tears I cry R bitter and warm<br/>
+They flow with life and take no form<br/>
+I cry because my heart is torn<br/>
+and I find it difficult 2 carry on<br/>
+if I had an ear 2 confide in<br/>
+I would cry among my treasured friends<br/>
+But who do u know that stops that long<br/>
+to help another carry on<br/>
+The world moves fast and it would rather pass u by<br/>
+than 2 stop and c what makes u cry<br/>
+It&#8217;s painful and sad and sometimes I cry<br/>
+and no one cares about why.</p></blockquote>
+
+<p>That&#8217;s from Tupac Shakur in a collection of poems released in a book titled <a href="http://www.amazon.com/The-Rose-that-Grew-Concrete/dp/0671028456/ref=sr_1_2?ie=UTF8&amp;qid=1380773049&amp;sr=8-2&amp;keywords=tupac">The Rose That Grew From Concrete</a>.  I really enjoyed reading all of his stuff.  The pieces are clean, minimalistic, thoughtful and easy to understand.</p>
+
+<p>The poem above was one that stuck out to me.  I was never a big fan of Tupac, didn&#8217;t know much about him and I wasn&#8217;t into the 90s rap scene (though I did like <a href="https://www.youtube.com/watch?v=nay31hvEvrY">Changes</a> a lot).  But in less than 15 lines of text I do feel like I know him a bit and have some perspective on his life.</p>
+
+<p>In the end I think the days of big, famous poems and poetry are over.  But if words on a page can still help us relate to each other, well I think that&#8217;s a timeless quality.  And on that note, maybe we can send some poetry to Congress as they <a href="http://www.cnn.com/2013/10/01/politics/government-shutdown/index.html">don&#8217;t seem to care</a> for each other much these days.</p>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+  
+		
+			Tagged under
+		
+    <a class='category' href='/blog/categories/poetry/'>poetry</a>
+	
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2013
+
+	Kwang B. Kim
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->

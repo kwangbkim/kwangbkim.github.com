@@ -4,7 +4,7 @@
 	<title><![CDATA[Kwang B. Kim]]></title>
 	<link href="http://kwangbkim.github.com/atom.xml" rel="self"/>
 	<link href="http://kwangbkim.github.com/"/>
-	<updated>2013-09-29T21:17:50-04:00</updated>
+	<updated>2013-10-03T00:14:54-04:00</updated>
 	<id>http://kwangbkim.github.com/</id>
 	<author>
 		<name><![CDATA[Kwang B. Kim]]></name>
@@ -12,6 +12,47 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Is Poetry Dead?]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2013/10/02/is-poetry-dead/"/>
+		<updated>2013-10-02T23:06:00-04:00</updated>
+		<id>http://kwangbkim.github.com/blog/2013/10/02/is-poetry-dead</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>I read an <a href="wapost%20link">article</a> recently about poetry questioning if it&#8217;s now a defunct, irrelevant art.  And though in the past few years I&#8217;ve gotten into poetry, I must admit there are some fair points in there.  In my own experience, I find some poems to be flat out boring.  Poems written by people quite famous and well praised in the academic/artistic community.  I can&#8217;t help it, I wish I enjoyed them more.  But it feels like work just to get through it because the text is so densely filled with imageries, descriptions and abstractions.</p>
+
+<p>Then one day, I read this poem and it got me thinking about all of the above.  It goes like this:</p>
+
+<blockquote><p>Sometimes I cry when I&#8217;m alone<br/>
+I cry because I&#8217;m on my own<br/>
+The tears I cry R bitter and warm<br/>
+They flow with life and take no form<br/>
+I cry because my heart is torn<br/>
+and I find it difficult 2 carry on<br/>
+if I had an ear 2 confide in<br/>
+I would cry among my treasured friends<br/>
+But who do u know that stops that long<br/>
+to help another carry on<br/>
+The world moves fast and it would rather pass u by<br/>
+than 2 stop and c what makes u cry<br/>
+It&#8217;s painful and sad and sometimes I cry<br/>
+and no one cares about why.</p></blockquote>
+
+<p>That&#8217;s from Tupac Shakur in a collection of poems released in a book titled <a href="http://www.amazon.com/The-Rose-that-Grew-Concrete/dp/0671028456/ref=sr_1_2?ie=UTF8&amp;qid=1380773049&amp;sr=8-2&amp;keywords=tupac">The Rose That Grew From Concrete</a>.  I really enjoyed reading all of his stuff.  The pieces are clean, minimalistic, thoughtful and easy to understand.</p>
+
+<p>The poem above was one that stuck out to me.  I was never a big fan of Tupac, didn&#8217;t know much about him and I wasn&#8217;t into the 90s rap scene (though I did like <a href="https://www.youtube.com/watch?v=nay31hvEvrY">Changes</a> a lot).  But in less than 15 lines of text I do feel like I know him a bit and have some perspective on his life.</p>
+
+<p>In the end I think the days of big, famous poems and poetry are over.  But if words on a page can still help us relate to each other, well I think that&#8217;s a timeless quality.  And on that note, maybe we can send some poetry to Congress as they <a href="http://www.cnn.com/2013/10/01/politics/government-shutdown/index.html">don&#8217;t seem to care</a> for each other much these days.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -521,34 +562,6 @@
 <p>Back to fencing and judging.  Wouldn&#8217;t it be great if we treated judging like our open sourced software?  That is, a skilled and knowledgeable community working together, in the open for all to see.  I am pretty sure that more than six people exist in the world who can accurately score a fencing competition.  Why delegate such important decisions to a small group of people?</p>
 
 <p>I&#8217;m sure there would be tons of issues with this, specifically the logistics and time efficiency of making such decisions.  But with services like Twitter that provide instant feedback, here&#8217;s to hoping a new model can be developed so that athletes like Roy Jones Jr. and Shin Lam don&#8217;t put in four years of training to get screwed.</p>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[Sum Zero Silicon Valley]]></title>
-		
-		<link href="http://kwangbkim.github.com/blog/2012/08/01/silicon-valley-and-the-timeshare-model/"/>
-		<updated>2012-08-01T23:00:00-04:00</updated>
-		<id>http://kwangbkim.github.com/blog/2012/08/01/silicon-valley-and-the-timeshare-model</id>
-		<content type="html">
-			<![CDATA[
-				
-					<p></p>
-				
-			]]>
-			<![CDATA[<p>Over the past week I&#8217;ve been reading a lot of material on <a href="http://daltoncaldwell.com/">Dalton Caldwell&#8217;s</a> blog.  It&#8217;s a tiny bit Jerry Maguire-ish but over and over again I find myself nodding my head in agreement.  The latest hot topic has been the recent changes to Twitter, presumably in an attempt to gain a better position to monetize their business.</p>
-
-<p>I think there is a fundamental flaw in the tech to marketing business model.  By saying tech to marketing, I mean a company who starts off as a tech company to attract users, who then changes to a marketing company to make money once they reach critical mass.  It&#8217;s happened to Facebook, and now it&#8217;s happening to Twitter.</p>
-
-<p>There&#8217;s nothing wrong when a business tries to make money.  But something seems a bit dubious about the whole process.  It&#8217;s kind of like one of those free timeshare weekend getaways.  Seems like a nice deal, until you&#8217;re subjected to 8 hours of pitches from salesman.  Yes, those salesman were within their right to do whatever.  After all, it&#8217;s not like you&#8217;re paying for anything.  But it still leaves a bad taste in your mouth doesn&#8217;t it?</p>
-
-<p>It&#8217;s the same kind of idea with some of these tech companies.  They&#8217;ve attained users who&#8217;ve been attracted to their free service.  But now to monetize the business the focus changes from pleasing the users to pleasing the advertisers or sponsors.  It creates a sum zero relationship because it&#8217;s near impossible to keep either happy without angering the other.  In the end the advertisers are the ones paying, so they are the ones who are catered to.  Meanwhile, users and third party developers slowly get more and more annoyed until a new free service comes along and everyone joins that and the business goes bust.  Presumably the process will repeat itself.</p>
-
-<p>Granted, not all companies have problems with this model.  <a href="http://www.stackexchange.com">StackExchange</a> offers an amazing product, is free and ad supported and is doing just fine thank you.</p>
-
-<p>Going back to Twitter, I&#8217;ve subscribed to <a href="http://join.app.net">App.Net</a>, Dalton Caldwell&#8217;s potential alternative.  Imagine the best of Twitter: clean, no ads, completely user focused, all for four bucks a month.  But it needs to raise $500k by August 14th and it doesn&#8217;t seem like they&#8217;re going to make it.  But we can all dream can&#8217;t we?</p>
 ]]>
 		</content>
 	</entry>
