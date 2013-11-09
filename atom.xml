@@ -4,7 +4,7 @@
 	<title><![CDATA[Kwang B. Kim]]></title>
 	<link href="http://kwangbkim.github.com/atom.xml" rel="self"/>
 	<link href="http://kwangbkim.github.com/"/>
-	<updated>2013-10-03T00:14:54-04:00</updated>
+	<updated>2013-11-09T16:50:20-05:00</updated>
 	<id>http://kwangbkim.github.com/</id>
 	<author>
 		<name><![CDATA[Kwang B. Kim]]></name>
@@ -12,6 +12,24 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[From Wall St. to Main St.]]></title>
+		
+		<link href="http://kwangbkim.github.com/blog/2013/11/09/from-wall-st-to-main-st/"/>
+		<updated>2013-11-09T16:41:00-05:00</updated>
+		<id>http://kwangbkim.github.com/blog/2013/11/09/from-wall-st-to-main-st</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>I&#8217;m happy to announce that I&#8217;ve joined the financial startup <a href="http://www.ondeck.com">OnDeck</a> as an engineer.  I&#8217;ll be working on the data software team, helping OnDeck to collect and analyze information on small businesses looking to get quick and simple loans.  After spending the start of my career at a couple of hedge funds, I&#8217;m really excited at the prospect of being able to help small businesses grow and prosper.</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
@@ -536,32 +554,6 @@ and no one cares about why.</p></blockquote>
 <p>So what&#8217;s next?  Well, I suppose that the real work begins.  The <a href="https://github.com/appdotnet/api-spec">API</a> needs to be hashed out, as that is still a work in progress.  <a href="http://samsoff.es/posts/app-net-is-dreaming-small">Sam Soffes</a> made a good point in that App.Net may have marketing issues, as it seems that the product is geared more towards developers than users themselves.  The product itself still needs to be built, the only tangible thing that exists right now is a prototype and a few apps to prove the API can work.</p>
 
 <p>But still, the next few months should be exciting.  I&#8217;ll be watching the development of the API closely as that to me is where the real possibilities lie.  Congratulations to the App.Net team!</p>
-]]>
-		</content>
-	</entry>
-	
-	<entry>
-		
-			<title type="html"><![CDATA[Open Sourced Judging]]></title>
-		
-		<link href="http://kwangbkim.github.com/blog/2012/08/10/open-source-judging/"/>
-		<updated>2012-08-10T20:18:00-04:00</updated>
-		<id>http://kwangbkim.github.com/blog/2012/08/10/open-source-judging</id>
-		<content type="html">
-			<![CDATA[
-				
-					<p></p>
-				
-			]]>
-			<![CDATA[<p>As a Korean-American I&#8217;ve had the luxury to follow both countries in the current Olympics.  One particular story that jumped out was about Shin Lam, the South Korean fencer who was unfairly eliminated due to a clock malfunction.  Shin Lam only had to evade getting touched for one second in order to move on to the finals.  Unfortunately, time works in <a href="http://www.youtube.com/watch?v=G7QENF5Uf7k">mysterious ways</a>.</p>
-
-<p>I feel sorry for her.  But in retrospect, this latest calamity makes South Korea par for the course in judging mishaps, at best.  Anyone remember <a href="http://www.youtube.com/watch?v=cJYBV9BXQNY">Roy Jones Jr.</a>?</p>
-
-<p>Mistakes, misjudgment and mismanagement are all too common when judicial power is given to a select few.  The causes can vary from subjective bias, to incompetence, and at worst outright corruption.  It transcends not only sports like boxing and soccer, but also to organizational entities like governments.  Just ask the people living in Egypt, Syria, Tunisia or Libya.</p>
-
-<p>Back to fencing and judging.  Wouldn&#8217;t it be great if we treated judging like our open sourced software?  That is, a skilled and knowledgeable community working together, in the open for all to see.  I am pretty sure that more than six people exist in the world who can accurately score a fencing competition.  Why delegate such important decisions to a small group of people?</p>
-
-<p>I&#8217;m sure there would be tons of issues with this, specifically the logistics and time efficiency of making such decisions.  But with services like Twitter that provide instant feedback, here&#8217;s to hoping a new model can be developed so that athletes like Roy Jones Jr. and Shin Lam don&#8217;t put in four years of training to get screwed.</p>
 ]]>
 		</content>
 	</entry>
