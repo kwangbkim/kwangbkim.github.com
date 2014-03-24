@@ -1,0 +1,124 @@
+
+<!doctype html>
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="Kwang B. Kim - Software Developer." name="description">
+		<meta content="Kwang B. Kim" name="author">
+		
+		<title>Sick &mdash; Kwang B. Kim</title>
+		
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+		
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+		
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+		
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+		
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="Kwang B. Kim" type="application/rss+xml" />-->
+		
+	</head>
+	<body onload="prettyPrint()">
+	
+		<div class="wrap">
+	
+			<header>
+				<div class="title">Kwang B. Kim</div>
+				
+				<div class="navi">
+					<ul>
+						<li><a href="/">Blog</a></li>
+						<li><a href="/blog/archives">Archives</a></li>
+            <li><a href="/about/">About</a></li>
+					<ul>
+				</div> <!-- // .navi -->
+			</header>
+		
+				<!-- START OF _layouts/post.html -->
+
+<!-- START OF _includes/article.html -->
+<article>
+	<header>
+		<h1><a href="/blog/2014/03/23/sick/">Sick</a></h1>
+		<time>23 March 2014</time>
+	</header>
+		<div class="content">
+			<p>As I write this I&#8217;m surprised at how long it&#8217;s been since I posted anything.  These past few months I&#8217;ve just been concentrating on working at <a href="http://www.ondeck.com">On Deck</a>, playing lots of basketball and apparently getting sick, which I am right now.</p>
+
+<p>Prior to moving to NYC I used to get sick maybe once every year or two.  Now it seems like once every couple months.  The general dirtiness and germs from millions of people around is certainly a contributing factor.  But I think it&#8217;s also the mentality of living in Manhattan.  There&#8217;s so many different options of things to do on every single day.  It makes you want to not waste any time, but after a little while you end up tired and overexerted.  It&#8217;s a pretty messed up, hedonistic way to live.</p>
+
+<p>On the other hand, I think everyone that moves here makes this kind of intrinsic agreement.  By moving here you sacrficice money, living space, cleanliness, nature, privacy and a ton of other stuff I&#8217;m neglecting to mention.  Crappy deal right?  In return, this place offers an infinite amount of experiences, basically as much as you can handle.  And I suppose that&#8217;s the one thing NYC offers that other places can&#8217;t.  Whether we realize it or not, we&#8217;re all trying to make the most of living here because we&#8217;ve sacrificed so much to do so.</p>
+
+<p>So what am I planning to do next?  Probably hit Central Park.  I need to see some grass and trees and sunlight.  And is it crazy that I have to hike 30 minutes to do that?  Yes, yes it is.</p>
+
+		</div>
+	<footer>
+		
+
+
+		
+
+
+
+
+	
+	
+	</footer>
+	
+</article>
+<!-- END OF _includes/article.html -->
+
+
+<!-- END OF _/layouts/post.html -->
+
+		
+			<footer>
+				Copyright &copy; 2014
+
+	Kwang B. Kim
+
+
+			</footer>
+			
+		</div> <!-- // .wrap -->
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+			
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + $('img', this).attr('title') + '</div>';
+			});
+			
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+			
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->
